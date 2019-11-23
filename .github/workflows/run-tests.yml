@@ -1,4 +1,4 @@
-name: Node CI
+name: Rodar os testes
 
 on:
   push:
@@ -18,6 +18,7 @@ jobs:
         node-version: ${{ matrix.node-version }}
     - name: npm install, build, and test
       run: |
+        npm install
         npm run build --if-present
         npm test
       env:
