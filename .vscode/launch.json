@@ -15,8 +15,6 @@
         "--colors",
         "-r",
         "esm",
-        "-r",
-        "module-alias",
         "--exit",
         "${workspaceFolder}/spec"
       ],

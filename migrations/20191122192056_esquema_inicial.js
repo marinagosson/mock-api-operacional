@@ -1,8 +1,3 @@
+exports.up = knex => knex.raw("select 1 + 1");
 
-exports.up = function(knex) {
-  // TODO criar
-};
-
-exports.down = function(knex) {
-  
-};
+exports.down = knex => knex.raw("select 1 - 1");

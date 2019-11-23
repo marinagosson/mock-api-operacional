@@ -3,6 +3,7 @@
 module.exports = {
 
   development: {
+    useNullAsDefault:true,
     client: 'sqlite3',
     connection: {
       filename: './operacional_dev.db'
@@ -10,6 +11,7 @@ module.exports = {
   },
 
   test: {
+    useNullAsDefault:true,
     client: 'sqlite3',
     connection: {
       filename: './operacional_test.db'

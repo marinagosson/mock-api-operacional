@@ -1,11 +1,11 @@
 {
   "name": "operacional_api",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "Protótipo de API para o App Operacional",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon index.js",
-    "test": "NODE_ENV=test nyc mocha -r module-alias -r esm  --timeout 10000 --exit spec"
+    "dev": "cross-env NODE_ENV=development nodemon index.js",
+    "test": "cross-env NODE_ENV=test nyc mocha -r esm --timeout 10000 --exit spec"
   },
   "repository": {
     "type": "git",
@@ -22,22 +22,20 @@
     "body-parser": "^1.19.0",
     "bookshelf": "^1.0.1",
     "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
     "esm": "^3.2.25",
     "express": "^4.17.1",
     "knex": "^0.20.2",
-    "module-alias": "^2.2.2",
+    "morgan": "^1.9.1",
     "pg": "^7.14.0",
     "sqlite3": "^4.1.0"
   },
   "devDependencies": {
     "chai": "^4.2.0",
     "chai-http": "^4.3.0",
+    "cross-env": "^6.0.3",
     "mocha": "^6.2.2",
     "nodemon": "^2.0.1",
     "nyc": "^14.1.1"
-  },
-  "_moduleAliases": {
-    "~": "app",
-    "@": "."
   }
 }
