@@ -1,5 +1,8 @@
 # operacional_api
 
+[![Actions Status](https://github.com/{casamagalhaes}/{operacional_app}/workflows/{Rodar os testes}/badge.svg)](https://github.com/{owner}/{repo}/actions)
+
+
 Protótipo de API para o App Operacional
 
 Documentação principal
