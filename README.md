@@ -2,7 +2,7 @@
 
 ![Status dos testes](https://github.com/casamagalhaes/operacional_api/workflows/Rodar%20os%20testes/badge.svg)
 
-Protótipo de API para o App Operacional
+Protótipo de API para o [App Operacional](https://github.com/casamagalhaes/operacional_app)
 
 Documentação principal
 [aqui](https://docs.google.com/document/d/17R4A-DA56kVHHrNPb76PM0yAPd7EVvbecSOlMG7fvK4/edit)
