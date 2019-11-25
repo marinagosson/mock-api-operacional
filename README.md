@@ -7,6 +7,8 @@ Protótipo de API para o [App Operacional](https://github.com/casamagalhaes/oper
 Documentação principal
 [aqui](https://docs.google.com/document/d/17R4A-DA56kVHHrNPb76PM0yAPd7EVvbecSOlMG7fvK4/edit)
 
+Histórico de mudanças [aqui](./CHANGELOG.md)
+
 ## uso básico
 
 Para subir o servidor de desenvolvimento
