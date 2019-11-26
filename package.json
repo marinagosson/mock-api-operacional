@@ -1,6 +1,6 @@
 {
   "name": "operacional_api",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Protótipo de API para o App Operacional",
   "main": "index.js",
   "scripts": {
