@@ -1,5 +1,15 @@
 # Histórico de mudanças do protótipo
 
+## 0.2.0
+
+Esqueleto de modelos.
+
+Colocando o básico na migração de esquema inicial. 
+
+Teremos uma migração por entidade, tem 9, nessas colocamos os atributos.
+
+Mais entidades podem surgir.
+
 ## 0.1.0
 
 Esqueleto inicial.

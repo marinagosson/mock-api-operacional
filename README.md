@@ -24,3 +24,19 @@ Para rodar os testes de API
 npm install
 npm run test
 ```
+
+## Migrações
+
+O banco do protótipo é gerido por migrações.
+
+Pra criar do zero:
+
+```bash
+npx knex migrate:up
+```
+
+Pra voltar o batch de migrações:
+
+```bash
+npx knex migrate:down
+```
