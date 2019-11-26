@@ -1,0 +1,261 @@
+{
+	"ASSINANTE": {
+		"fields": {
+			"id": {
+				"type": "integer"
+			},
+			"cnpj": {
+				"type": "string"
+			},
+			"ativo": {
+				"type": "boolean"
+			},
+			"descricao": {
+				"type": "string"
+			}
+		}
+	},
+	"LOJA": {
+		"fields": {
+			"assinanteId": {
+				"type": "integer"
+			},
+			"id": {
+				"type": "string"
+			},
+			"descricao": {
+				"type": "string"
+			},
+			"ativo": {
+				"type": "boolean"
+			}
+		}
+	},
+	"FUNCIONARIO": {
+		"fields": {
+			"assinanteId": {
+				"type": "integer"
+			},
+			"id": {
+				"type": "integer"
+			},
+			"descricao": {
+				"type": "string"
+			},
+			"apelido": {
+				"type": "string"
+			},
+			"senha": {
+				"type": "string"
+			},
+			"ativo": {
+				"type": "boolean"
+			},
+			"lojas": {
+				"type": "list[object]",
+				"fields": {
+					"lojaId": {
+						"type": "string"
+					}
+				}
+			}
+		}
+	},
+	"HABILITACAO": {
+		"fields": {
+			"assinanteId": {
+				"type": "integer"
+			},
+			"token": {
+				"type": "string"
+			},
+			"razaoSocial": {
+				"type": "string"
+			},
+			"software": {
+				"type": "string",
+				"enum": ["VAREJOFACIL", "SYSPDV", "MILENIO"]
+			},
+			"url": {
+				"type": "string"
+			}
+		}
+	},
+
+	"DISPOSITIVO": {
+		"fields": {
+			"assinanteId": {
+				"type": "integer"
+			},
+			"uuid": {
+				"type": "string"
+			},
+			"modelo": {
+				"type": "string"
+			},
+			"so": {
+				"type": "string"
+			},
+			"dispositivo": {
+				"type": "string"
+			}
+		}
+	},
+	"PRODUTO": {
+		"fields": {
+			"assinanteId": {
+				"type": "integer"
+			},
+			"id": {
+				"type": "integer"
+			},
+			"produtoId": {
+				"type": "string"
+			},
+			"descricao": {
+				"type": "string"
+			},
+			"ativo": {
+				"type": "boolean"
+			},
+			"balanca": {
+				"type": "boolean"
+			},
+			"quantidadeEmbalagens": {
+				"type": "number"
+			},
+			"quantidadeItensEmbalagens": {
+				"type": "number"
+			},
+			"unidadeMedida": {
+				"type": "string"
+			},
+			"tipoVenda": {
+				"type": "string",
+				"enum": [
+					"FRACIONADA",
+					"UNITARIA",
+					"UNITARIA_MULTIPLICACAO",
+					"FRACIONADA_ETIQUETA_PESO"
+				]
+			},
+			"codigoAuxiliares": {
+				"type": "list[object]",
+				"fields": {
+					"codigo": {
+						"type": "string"
+					}
+				}
+			},
+			"lojas": {
+				"type": "list[object]",
+				"fields": {
+					"lojaId": {
+						"type": "string"
+					},
+					"preco1": {
+						"type": "number"
+					},
+					"preco2": {
+						"type": "number"
+					},
+					"preco3": {
+						"type": "number"
+					},
+					"preco1EmOferta": {
+						"type": "boolean"
+					},
+					"preco2EmOferta": {
+						"type": "boolean"
+					},
+					"preco3EmOferta": {
+						"type": "boolean"
+					}
+				}
+			}
+		}
+	},
+	"CONFIG_PRODUTO": {
+		"fields": {
+			"assinanteId": {
+				"type": "integer"
+			},
+			"digitosEANBalanca": {
+				"type": "integer"
+			},
+			"fatorEANBalanca": {
+				"type": "integer"
+			}
+		}
+	},
+	"INVENTARIO": {
+		"fields": {
+			"assinanteId": {
+				"type": "integer"
+			},
+			"id": {
+				"type": "integer"
+			},
+			"inventarioId": {
+				"type": "integer"
+			},
+			"numeroContagem": {
+				"type": "integer"
+			},
+			"descricao": {
+				"type": "string"
+			},
+			"xstatus": {
+				"type": "string",
+				"enum": ["ABERTO", "CONTANDO", "ENCERRADO"]
+			},
+			"tipoContagem": {
+				"type": "string",
+				"enum": ["SIMPLES", "MULTIPLA"]
+			},
+			"permiteProdutosAvulsos": {
+				"type": "boolean"
+			},
+			"permiteApenasProdutosCadastrados": {
+				"type": "boolean"
+			},
+			"produtos": {
+				"type": "list[object]",
+				"fields": {
+					"produtoId": {
+						"type": "string"
+					}
+				}
+			}
+		}
+	},
+	"CONTAGEM": {
+		"fields": {
+			"assinanteId": {
+				"type": "integer"
+			},
+			"id": {
+				"type": "string"
+			},
+			"inventarioId": {
+				"type": "string"
+			},
+			"produtoId": {
+				"type": "integer"
+			},
+			"funcionarioId": {
+				"type": "string"
+			},
+			"quantidadeEmbalagens": {
+				"type": "number"
+			},
+			"quantidadeItensEmbalagens": {
+				"type": "number"
+			},
+			"momentoContagem": {
+				"type": "string",
+				"format": "date-time"
+			}
+		}
+	}
+}

@@ -5,6 +5,21 @@ não necessariamente cabem no [CHANGELOG](./CHANGELOG.md)
 
 ## 2019-11-26
 
+o [schema.json](./schema.json) inicial ficou pronto e agora podemos construir as
+entidades a partir dele.
+
+Contando as entidades, chegamos em 13 tabelas iniciais. Somado a isso, temos
+workflows importantes como login, logout, ativação, refresh, rotinas de
+permissão, sync dos dados e a própria contagem em si, nós imaginamos um esforço
+de **45 turnos**.
+
+Mas essa projeção imagina um recurso 100% dedicado, e _não temos isso_.
+
+Toco a bola pro produto trabalhar e elaborar esse prazo com os recursos que
+temos.
+
+## 2019-11-25
+
 Lembrando que, embora a api vá ter os timestamps e alguns outros (os marcadores)
 indicando que determinado dado já existe no app, na api e nos backends, não
 necessariamente eles vão trafegar.
