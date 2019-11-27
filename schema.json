@@ -96,6 +96,12 @@
 			"so": {
 				"type": "string"
 			},
+			"versao": {
+				"type": "string"
+			},
+			"fabricante": {
+				"type": "string"
+			},
 			"dispositivo": {
 				"type": "string"
 			}

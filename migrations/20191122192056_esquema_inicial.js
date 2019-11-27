@@ -71,7 +71,9 @@ exports.up = async knex => {
 			.references("assinante.id")
 			.onDelete("cascade");
 		tb.string("uuid").notNullable();
+		tb.string("fabricante").notNullable();
 		tb.string("modelo").notNullable();
+		tb.string("versao").notNullable().comment("versão do S.O.");
 		tb.string("so").notNullable();
 		tb.string("dispositivo").notNullable();
 	});
