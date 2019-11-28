@@ -3,9 +3,16 @@
 Comentários um pouco mais descontraídos sobre o desenvolvimento sobre coisas que
 não necessariamente cabem no [CHANGELOG](./CHANGELOG.md)
 
+## 2019-11-27
+
+Pende uma decisão de negócio se esta implementação continua ou não. Pelo sim
+pelo não, subindo uns esqueletos de arame aqui.
+
+Melhoramos o setup e o teardown da suíte de testes
+
 ## 2019-11-26
 
-o [schema.json](./schema.json) inicial ficou pronto e agora podemos construir as
+O [schema.json](./schema.json) inicial ficou pronto e agora podemos construir as
 entidades a partir dele.
 
 Contando as entidades, chegamos em 13 tabelas iniciais. Somado a isso, temos
