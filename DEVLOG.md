@@ -3,6 +3,11 @@
 Comentários um pouco mais descontraídos sobre o desenvolvimento sobre coisas que
 não necessariamente cabem no [CHANGELOG](./CHANGELOG.md)
 
+## 2019-12-02
+
+Não implementarei regras complexas. Conforme alinhado com o CTO, bastam mocks
+simples e API esperada. Isso nos permite acelerar os trabalhos um pouco.
+
 ## 2019-11-27
 
 Pende uma decisão de negócio se esta implementação continua ou não. Pelo sim
