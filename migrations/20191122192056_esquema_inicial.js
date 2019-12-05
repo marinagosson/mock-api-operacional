@@ -73,7 +73,9 @@ exports.up = async knex => {
 		tb.string("uuid").notNullable();
 		tb.string("fabricante").notNullable();
 		tb.string("modelo").notNullable();
-		tb.string("versao").notNullable().comment("versão do S.O.");
+		tb.string("versao")
+			.notNullable()
+			.comment("versão do S.O.");
 		tb.string("so").notNullable();
 		tb.string("dispositivo").notNullable();
 	});
@@ -85,7 +87,6 @@ exports.up = async knex => {
 			.references("assinante.id")
 			.onDelete("cascade");
 		tb.string("produtoId")
-			.notNullable()
 			.comment(
 				"o código do produto no software de retaguarda. É referenciado no inventário",
 			);
@@ -93,6 +94,9 @@ exports.up = async knex => {
 		tb.boolean("ativo")
 			.notNullable()
 			.defaultTo(true);
+		tb.boolean("novo")
+			.notNullable()
+			.defaultTo(false);
 		tb.boolean("balanca")
 			.notNullable()
 			.defaultTo(true);
