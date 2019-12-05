@@ -3,6 +3,11 @@
 Comentários um pouco mais descontraídos sobre o desenvolvimento sobre coisas que
 não necessariamente cabem no [CHANGELOG](./CHANGELOG.md)
 
+## 2019-12-05
+
+Vai ser de extrema importância montar uma carga inicial bem como um endpoint
+para sincronização inicial de dados.
+
 ## 2019-12-02
 
 Não implementarei regras complexas. Conforme alinhado com o CTO, bastam mocks
