@@ -5,7 +5,7 @@ exports.up = async knex => {
 		descricao: "Super Mercado Casa Magalhães",
 	});
 	await knex("unidade").insert([
-		{ id: 82, assinanteId: 1, codigo: "CX", descricao: "Caixa" },
+		{ id: 1, assinanteId: 1, codigo: "CX", descricao: "Caixa" },
 		{ id: 83, assinanteId: 1, codigo: "FD", descricao: "Fardo" },
 		{ id: 84, assinanteId: 1, codigo: "GRS", descricao: "Grosa" },
 		{ id: 85, assinanteId: 1, codigo: "KG", descricao: "Quilo" },

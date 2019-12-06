@@ -1,5 +1,9 @@
 # Histórico de mudanças do protótipo
 
+## 0.3.1
+
+Retornando na API de produto o objeto de relacionamento unidadeMedida
+
 ## 0.3.0
 
 Esquema de dados inicial adicionado na primeira migrate do protótipo
