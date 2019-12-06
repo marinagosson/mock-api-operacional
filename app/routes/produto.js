@@ -3,7 +3,10 @@ import { Produto } from "../models";
 
 export const produto = new Router();
 
-produto.get("/", (req, res) => { res.send("TOO - implement!") });
+produto.get("/", async (req, res) => { 
+  const list  = await Produto.query(qb => qb).fetchAll();
+  res.send(list);
+ });
 produto.get("/:id", (req, res) => { res.send("TOO - implement!") });
 produto.post("/", (req, res) => { res.send("TOO - implement!") });
 produto.put("/:id", (req, res) => { res.send("TOO - implement!") });

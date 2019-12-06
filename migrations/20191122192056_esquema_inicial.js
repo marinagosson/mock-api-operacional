@@ -79,6 +79,17 @@ exports.up = async knex => {
 		tb.string("so").notNullable();
 		tb.string("dispositivo").notNullable();
 	});
+	await knex.schema.createTable("unidade", tb => {
+		tb.integer("id").notNullable();
+		tb.timestamps(true, true);
+		tb.integer("assinanteId")
+			.notNullable()
+			.references("assinante.id")
+			.onDelete("cascade");
+		tb.string("codigo").notNullable();
+		tb.string("descricao").notNullable();
+		tb.primary(["id"]);
+	});
 	await knex.schema.createTable("produto", tb => {
 		tb.increments();
 		tb.timestamps(true, true);
@@ -86,10 +97,9 @@ exports.up = async knex => {
 			.notNullable()
 			.references("assinante.id")
 			.onDelete("cascade");
-		tb.string("produtoId")
-			.comment(
-				"o código do produto no software de retaguarda. É referenciado no inventário",
-			);
+		tb.string("produtoId").comment(
+			"o código do produto no software de retaguarda. É referenciado no inventário",
+		);
 		tb.text("descricao");
 		tb.boolean("ativo")
 			.notNullable()
@@ -106,7 +116,10 @@ exports.up = async knex => {
 		tb.integer("quantidadeItensEmbalagens")
 			.notNullable()
 			.defaultTo(1);
-		tb.string("unidadeMedida").notNullable();
+		tb.integer("unidadeMedida")
+			.notNullable()
+			.references("unidade.id")
+			.onDelete("cascade");
 		tb.enu("tipoVenda", [
 			"FRACIONADA",
 			"UNITARIA",
@@ -230,6 +243,7 @@ exports.down = async knex => {
 	await knex.schema.dropTable("codigo_auxiliar");
 	await knex.schema.dropTable("config_produto");
 	await knex.schema.dropTable("produto");
+	await knex.schema.dropTable("unidade");
 	await knex.schema.dropTable("dispositivo");
 	await knex.schema.dropTable("habilitacao");
 	await knex.schema.dropTable("loja_funcionario");
