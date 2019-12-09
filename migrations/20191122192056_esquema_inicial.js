@@ -116,10 +116,7 @@ exports.up = async knex => {
 		tb.integer("quantidadeItensEmbalagens")
 			.notNullable()
 			.defaultTo(1);
-		tb.integer("unidadeMedida")
-			.notNullable()
-			.references("unidade.id")
-			.onDelete("cascade");
+		tb.string("unidadeMedida").notNullable();
 		tb.enu("tipoVenda", [
 			"FRACIONADA",
 			"UNITARIA",
@@ -134,11 +131,18 @@ exports.up = async knex => {
 			.notNullable()
 			.references("assinante.id")
 			.onDelete("cascade");
+		tb.integer("fator")
+		.notNullable()
+		.defaultTo(1);
+		tb.enu("tipo", [
+			"LITERAL",
+			"EAN"
+		]);
 		tb.integer("produtoId")
 			.notNullable()
 			.references("produto.id")
 			.onDelete("cascade");
-		tb.string("codigo").notNullable();
+		tb.string("codigo");
 	});
 	await knex.schema.createTable("preco", tb => {
 		tb.increments();

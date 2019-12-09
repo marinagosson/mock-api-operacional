@@ -1,5 +1,11 @@
 # Histórico de mudanças do protótipo
 
+## 0.3.2
+
+Modificando a tabela produto
+Inserindo mais dados na carga inicial
+Retornando os codigos auxiliares no produto
+
 ## 0.3.1
 
 Retornando na API de produto o objeto de relacionamento unidadeMedida

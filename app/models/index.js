@@ -6,3 +6,4 @@ export { Inventario } from "./inventario";
 export { Loja } from "./loja";
 export { Produto } from "./produto";
 export { Funcionario } from "./funcionario";
+export { Unidade } from "./unidade";
