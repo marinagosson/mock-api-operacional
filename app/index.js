@@ -31,5 +31,5 @@ export const start = async _ => {
   console.log("(2/3) migrations donne!");
   const port = process.env.PORT || 3000;
   await app.listen(port);
-  console.log("(3/3) listening port %s", port);
+  console.log("(3/3) listening on http://127.0.0.1:%s", port);
 };
