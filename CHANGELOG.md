@@ -2,6 +2,12 @@
 
 ## 0.3.2
 
+Ajuste na tabela produto
+Alterando a carga inicial de produto para 2k
+(os inserts estao divididos em blocos de 100 produtos)
+
+## 0.3.2
+
 Modificando a tabela produto
 Inserindo mais dados na carga inicial
 Retornando os codigos auxiliares no produto

@@ -123,6 +123,7 @@ exports.up = async knex => {
 			"UNITARIA_MULTIPLICACAO",
 			"FRACIONADA_ETIQUETA_PESO",
 		]);
+		tb.string("pesoVariavel").notNullable();
 	});
 	await knex.schema.createTable("codigo_auxiliar", tb => {
 		tb.increments();
