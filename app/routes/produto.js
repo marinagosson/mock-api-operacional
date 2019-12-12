@@ -5,7 +5,7 @@ export const produto = new Router();
 
 produto.get("/", async (req, res) => { 
   const {page = 1} = req.query
-  const list  = await Produto.query(qb => qb).fetchPage({withRelated:['codigosAuxiliares'], page, pageSize: 600});
+  const list  = await Produto.query(qb => qb).fetchPage({withRelated:['codigosAuxiliares'], page, pageSize: 1000});
   // const list  = await Produto.query(qb => qb).fetchAll({withRelated:['codigosAuxiliares'], debug: true});
   res.send(list);
  });

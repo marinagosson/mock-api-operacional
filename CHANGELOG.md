@@ -1,6 +1,11 @@
 # Histórico de mudanças do protótipo
 
-## 0.3.2
+## 0.3.4
+
+Alterando a carga inicial de produto
+(o ultimo insert sao de produtos que nao tem codigo auxiliar)
+
+## 0.3.3
 
 Ajuste na tabela produto
 Alterando a carga inicial de produto para 2k
