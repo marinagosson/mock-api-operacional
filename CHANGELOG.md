@@ -1,5 +1,9 @@
 # Histórico de mudanças do protótipo
 
+## 0.3.5
+
+Alterando a carga inicial de produto
+
 ## 0.3.4
 
 Alterando a carga inicial de produto
