@@ -1,5 +1,14 @@
 # Histórico de mudanças do protótipo
 
+## 0.4.1
+
+Alterando os ids dos produtos do inventario
+
+
+## 0.4.0
+
+Transformando o retorno estatico das chamadas necessarias para o App
+
 ## 0.3.5
 
 Alterando a carga inicial de produto
