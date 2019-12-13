@@ -1756,11 +1756,6 @@ await knex("produto").insert(
 { assinanteId: 1, produtoId:7891035285240, unidadeMedida: "UN", descricao: "VEJA DESINFETANTE PINHO 480ML", pesoVariavel: "N", quantidadeItensEmbalagens: 1.000},
   ]
 );
-await knex("produto").insert(
-  [
-    
-  ]
-);
 
 await knex("codigo_auxiliar").insert(
   [
