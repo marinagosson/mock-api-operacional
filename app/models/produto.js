@@ -5,6 +5,6 @@ import { CodigoAuxiliar } from "./codigo_auxiliar";
 export const Produto = bookshelf.Model.extend({
   tableName: "produto",
   codigosAuxiliares(){
-    return this.hasMany(CodigoAuxiliar, 'produtoId', 'produtoId');
+    return this.hasMany(CodigoAuxiliar, 'produtoCodigo', 'produtoCodigo');
   }
 });
