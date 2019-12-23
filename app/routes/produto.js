@@ -26,7 +26,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -57,7 +57,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -88,7 +88,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -119,7 +119,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -150,7 +150,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -181,7 +181,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -212,7 +212,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -243,7 +243,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -274,7 +274,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -305,7 +305,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "S",
       codigosAuxiliares: [
@@ -336,7 +336,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -367,7 +367,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -398,7 +398,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -429,7 +429,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -460,7 +460,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -491,7 +491,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -522,7 +522,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -553,7 +553,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -584,7 +584,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -615,7 +615,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -646,7 +646,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 12,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -677,7 +677,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 6,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -708,7 +708,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -739,7 +739,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -770,7 +770,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -801,7 +801,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -832,7 +832,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -863,7 +863,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -894,7 +894,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -925,7 +925,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -956,7 +956,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -987,7 +987,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -1018,7 +1018,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -1049,7 +1049,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -1080,7 +1080,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -1111,7 +1111,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -1142,7 +1142,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -1173,7 +1173,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -1204,7 +1204,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -1235,7 +1235,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -1266,7 +1266,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -1297,7 +1297,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -1328,7 +1328,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -1359,7 +1359,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -1390,7 +1390,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -1421,7 +1421,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -1452,7 +1452,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -1483,7 +1483,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -1514,7 +1514,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -1545,7 +1545,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -1576,7 +1576,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -1607,7 +1607,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -1638,7 +1638,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -1669,7 +1669,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -1700,7 +1700,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -1731,7 +1731,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -1762,7 +1762,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -1793,7 +1793,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -1824,7 +1824,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -1855,7 +1855,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -1886,7 +1886,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -1917,7 +1917,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -1948,7 +1948,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -1979,7 +1979,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -2010,7 +2010,7 @@ produto.get("/", async (req, res) => {
       balanca: 1,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "KG",
+      unidadeVenda: "KG",
       tipoVenda: null,
       pesoVariavel: "S",
       codigosAuxiliares: [
@@ -2041,7 +2041,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -2072,7 +2072,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -2103,7 +2103,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -2134,7 +2134,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -2165,7 +2165,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -2196,7 +2196,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -2227,7 +2227,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -2258,7 +2258,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -2289,7 +2289,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -2320,7 +2320,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -2351,7 +2351,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -2382,7 +2382,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -2413,7 +2413,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -2444,7 +2444,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 6,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -2475,7 +2475,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -2506,7 +2506,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -2537,7 +2537,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 6,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -2568,7 +2568,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -2599,7 +2599,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -2630,7 +2630,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -2661,7 +2661,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "KG",
+      unidadeVenda: "KG",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -2692,7 +2692,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "KG",
+      unidadeVenda: "KG",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -2723,7 +2723,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "KG",
+      unidadeVenda: "KG",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -2754,7 +2754,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -2785,7 +2785,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -2816,7 +2816,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "KG",
+      unidadeVenda: "KG",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -2847,7 +2847,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "KG",
+      unidadeVenda: "KG",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -2878,7 +2878,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "KG",
+      unidadeVenda: "KG",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -2909,7 +2909,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "KG",
+      unidadeVenda: "KG",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -2940,7 +2940,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -2971,7 +2971,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -3002,7 +3002,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -3033,7 +3033,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -3064,7 +3064,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -3095,7 +3095,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -3126,7 +3126,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "KG",
+      unidadeVenda: "KG",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -3157,7 +3157,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -3188,7 +3188,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -3219,7 +3219,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -3250,7 +3250,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -3281,7 +3281,7 @@ produto.get("/", async (req, res) => {
       balanca: 1,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "KG",
+      unidadeVenda: "KG",
       tipoVenda: null,
       pesoVariavel: "S",
       codigosAuxiliares: [
@@ -3312,7 +3312,7 @@ produto.get("/", async (req, res) => {
       balanca: 1,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "KG",
+      unidadeVenda: "KG",
       tipoVenda: null,
       pesoVariavel: "S",
       codigosAuxiliares: [
@@ -3343,7 +3343,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -3374,7 +3374,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -3405,7 +3405,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -3436,7 +3436,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -3467,7 +3467,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "KG",
+      unidadeVenda: "KG",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -3498,7 +3498,7 @@ produto.get("/", async (req, res) => {
       balanca: 1,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "KG",
+      unidadeVenda: "KG",
       tipoVenda: null,
       pesoVariavel: "S",
       codigosAuxiliares: [
@@ -3529,7 +3529,7 @@ produto.get("/", async (req, res) => {
       balanca: 1,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "KG",
+      unidadeVenda: "KG",
       tipoVenda: null,
       pesoVariavel: "S",
       codigosAuxiliares: [
@@ -3560,7 +3560,7 @@ produto.get("/", async (req, res) => {
       balanca: 1,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "KG",
+      unidadeVenda: "KG",
       tipoVenda: null,
       pesoVariavel: "S",
       codigosAuxiliares: [
@@ -3591,7 +3591,7 @@ produto.get("/", async (req, res) => {
       balanca: 1,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "KG",
+      unidadeVenda: "KG",
       tipoVenda: null,
       pesoVariavel: "S",
       codigosAuxiliares: [
@@ -3622,7 +3622,7 @@ produto.get("/", async (req, res) => {
       balanca: 1,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "KG",
+      unidadeVenda: "KG",
       tipoVenda: null,
       pesoVariavel: "S",
       codigosAuxiliares: [
@@ -3653,7 +3653,7 @@ produto.get("/", async (req, res) => {
       balanca: 1,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "KG",
+      unidadeVenda: "KG",
       tipoVenda: null,
       pesoVariavel: "S",
       codigosAuxiliares: [
@@ -3684,7 +3684,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -3715,7 +3715,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -3746,7 +3746,7 @@ produto.get("/", async (req, res) => {
       balanca: 1,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "KG",
+      unidadeVenda: "KG",
       tipoVenda: null,
       pesoVariavel: "S",
       codigosAuxiliares: [
@@ -3777,7 +3777,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -3808,7 +3808,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -3839,7 +3839,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -3870,7 +3870,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -3901,7 +3901,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -3932,7 +3932,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -3963,7 +3963,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -3994,7 +3994,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -4025,7 +4025,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -4056,7 +4056,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -4087,7 +4087,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -4118,7 +4118,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -4149,7 +4149,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -4180,7 +4180,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -4211,7 +4211,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -4242,7 +4242,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -4273,7 +4273,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -4304,7 +4304,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -4335,7 +4335,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -4366,7 +4366,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -4397,7 +4397,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -4428,7 +4428,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -4459,7 +4459,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -4490,7 +4490,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -4521,7 +4521,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -4552,7 +4552,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -4583,7 +4583,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -4614,7 +4614,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -4645,7 +4645,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -4676,7 +4676,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -4707,7 +4707,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -4738,7 +4738,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -4769,7 +4769,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -4800,7 +4800,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -4831,7 +4831,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -4862,7 +4862,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -4893,7 +4893,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -4924,7 +4924,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -4955,7 +4955,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -4986,7 +4986,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -5017,7 +5017,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -5048,7 +5048,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -5079,7 +5079,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -5110,7 +5110,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -5141,7 +5141,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -5172,7 +5172,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -5203,7 +5203,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -5234,7 +5234,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -5265,7 +5265,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -5296,7 +5296,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -5327,7 +5327,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -5358,7 +5358,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -5389,7 +5389,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -5420,7 +5420,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -5451,7 +5451,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -5482,7 +5482,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -5513,7 +5513,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -5544,7 +5544,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -5575,7 +5575,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -5606,7 +5606,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -5637,7 +5637,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -5668,7 +5668,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -5699,7 +5699,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -5730,7 +5730,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -5761,7 +5761,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -5792,7 +5792,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -5823,7 +5823,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -5854,7 +5854,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -5885,7 +5885,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -5916,7 +5916,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -5947,7 +5947,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -5978,7 +5978,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -6009,7 +6009,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -6040,7 +6040,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -6071,7 +6071,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -6102,7 +6102,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -6133,7 +6133,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -6164,7 +6164,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -6195,7 +6195,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -6226,7 +6226,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -6257,7 +6257,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -6288,7 +6288,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -6319,7 +6319,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -6350,7 +6350,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -6381,7 +6381,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -6412,7 +6412,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -6443,7 +6443,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -6474,7 +6474,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -6505,7 +6505,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -6536,7 +6536,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -6567,7 +6567,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -6598,7 +6598,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -6629,7 +6629,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -6660,7 +6660,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -6691,7 +6691,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -6722,7 +6722,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -6753,7 +6753,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -6784,7 +6784,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -6815,7 +6815,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -6846,7 +6846,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -6877,7 +6877,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -6908,7 +6908,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -6939,7 +6939,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -6970,7 +6970,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -7001,7 +7001,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -7032,7 +7032,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -7063,7 +7063,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -7094,7 +7094,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -7125,7 +7125,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -7156,7 +7156,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -7187,7 +7187,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -7218,7 +7218,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -7249,7 +7249,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -7280,7 +7280,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -7323,7 +7323,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -7354,7 +7354,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -7385,7 +7385,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -7416,7 +7416,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -7447,7 +7447,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -7478,7 +7478,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -7509,7 +7509,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -7540,7 +7540,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -7571,7 +7571,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -7602,7 +7602,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -7633,7 +7633,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -7664,7 +7664,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 5,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -7695,7 +7695,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 5,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -7726,7 +7726,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 5,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -7757,7 +7757,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -7824,7 +7824,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -7855,7 +7855,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -7886,7 +7886,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -7917,7 +7917,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -7948,7 +7948,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -7979,7 +7979,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -8010,7 +8010,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -8041,7 +8041,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -8072,7 +8072,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -8103,7 +8103,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -8134,7 +8134,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -8165,7 +8165,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -8196,7 +8196,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -8227,7 +8227,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -8258,7 +8258,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -8289,7 +8289,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -8320,7 +8320,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -8351,7 +8351,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -8382,7 +8382,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -8413,7 +8413,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -8444,7 +8444,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -8475,7 +8475,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -8506,7 +8506,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -8537,7 +8537,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -8568,7 +8568,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -8599,7 +8599,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -8630,7 +8630,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -8661,7 +8661,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -8692,7 +8692,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -8723,7 +8723,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -8754,7 +8754,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -8785,7 +8785,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -8816,7 +8816,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -8847,7 +8847,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -8878,7 +8878,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -8909,7 +8909,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -8940,7 +8940,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -8971,7 +8971,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -9002,7 +9002,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -9033,7 +9033,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -9064,7 +9064,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -9095,7 +9095,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -9126,7 +9126,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -9157,7 +9157,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -9188,7 +9188,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -9219,7 +9219,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -9250,7 +9250,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -9281,7 +9281,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -9312,7 +9312,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -9343,7 +9343,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -9374,7 +9374,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -9405,7 +9405,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -9436,7 +9436,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -9467,7 +9467,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -9498,7 +9498,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "KG",
+      unidadeVenda: "KG",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -9529,7 +9529,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -9560,7 +9560,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -9591,7 +9591,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -9622,7 +9622,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -9653,7 +9653,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -9684,7 +9684,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -9715,7 +9715,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -9746,7 +9746,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -9777,7 +9777,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -9808,7 +9808,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -9839,7 +9839,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -9870,7 +9870,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -9901,7 +9901,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -9932,7 +9932,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -9963,7 +9963,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -9994,7 +9994,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -10025,7 +10025,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -10056,7 +10056,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -10087,7 +10087,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -10118,7 +10118,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -10149,7 +10149,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -10180,7 +10180,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -10211,7 +10211,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -10242,7 +10242,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -10273,7 +10273,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -10304,7 +10304,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -10335,7 +10335,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -10366,7 +10366,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -10397,7 +10397,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -10428,7 +10428,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -10459,7 +10459,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -10490,7 +10490,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -10521,7 +10521,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -10552,7 +10552,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -10583,7 +10583,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -10614,7 +10614,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -10645,7 +10645,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -10676,7 +10676,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -10707,7 +10707,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -10738,7 +10738,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -10769,7 +10769,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -10800,7 +10800,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -10831,7 +10831,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -10862,7 +10862,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -10893,7 +10893,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -10924,7 +10924,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -10955,7 +10955,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -10986,7 +10986,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -11017,7 +11017,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -11048,7 +11048,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -11079,7 +11079,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -11110,7 +11110,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -11153,7 +11153,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -11184,7 +11184,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -11215,7 +11215,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -11246,7 +11246,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -11277,7 +11277,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 24,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -11308,7 +11308,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -11339,7 +11339,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -11370,7 +11370,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -11401,7 +11401,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -11432,7 +11432,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -11463,7 +11463,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -11494,7 +11494,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -11525,7 +11525,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -11556,7 +11556,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -11587,7 +11587,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -11618,7 +11618,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -11649,7 +11649,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -11680,7 +11680,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -11711,7 +11711,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -11742,7 +11742,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -11773,7 +11773,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -11804,7 +11804,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -11835,7 +11835,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -11866,7 +11866,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -11897,7 +11897,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -11928,7 +11928,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -11959,7 +11959,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -11990,7 +11990,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -12021,7 +12021,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -12052,7 +12052,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -12083,7 +12083,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "KG",
+      unidadeVenda: "KG",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -12114,7 +12114,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "KG",
+      unidadeVenda: "KG",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -12145,7 +12145,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -12176,7 +12176,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -12207,7 +12207,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -12238,7 +12238,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -12269,7 +12269,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -12300,7 +12300,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -12331,7 +12331,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -12362,7 +12362,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -12393,7 +12393,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -12424,7 +12424,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -12455,7 +12455,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -12486,7 +12486,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -12517,7 +12517,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -12548,7 +12548,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -12579,7 +12579,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -12634,7 +12634,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -12665,7 +12665,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -12696,7 +12696,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -12727,7 +12727,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -12758,7 +12758,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -12789,7 +12789,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -12820,7 +12820,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -12851,7 +12851,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -12882,7 +12882,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -12913,7 +12913,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -12944,7 +12944,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -12975,7 +12975,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -13006,7 +13006,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -13037,7 +13037,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -13068,7 +13068,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -13099,7 +13099,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -13130,7 +13130,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -13161,7 +13161,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -13192,7 +13192,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -13223,7 +13223,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -13254,7 +13254,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -13285,7 +13285,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -13316,7 +13316,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -13347,7 +13347,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -13378,7 +13378,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -13409,7 +13409,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -13440,7 +13440,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -13471,7 +13471,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -13502,7 +13502,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -13533,7 +13533,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -13564,7 +13564,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -13595,7 +13595,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -13626,7 +13626,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -13669,7 +13669,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -13700,7 +13700,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "KG",
+      unidadeVenda: "KG",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -13731,7 +13731,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -13762,7 +13762,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -13793,7 +13793,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -13824,7 +13824,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -13855,7 +13855,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -13886,7 +13886,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -13917,7 +13917,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -13948,7 +13948,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -13979,7 +13979,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -14010,7 +14010,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -14041,7 +14041,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -14072,7 +14072,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -14103,7 +14103,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -14134,7 +14134,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -14165,7 +14165,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -14196,7 +14196,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -14227,7 +14227,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -14258,7 +14258,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -14289,7 +14289,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -14320,7 +14320,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -14351,7 +14351,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -14382,7 +14382,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -14413,7 +14413,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -14444,7 +14444,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -14475,7 +14475,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -14506,7 +14506,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -14537,7 +14537,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -14568,7 +14568,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -14599,7 +14599,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -14630,7 +14630,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "KG",
+      unidadeVenda: "KG",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -14661,7 +14661,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "KG",
+      unidadeVenda: "KG",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -14692,7 +14692,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -14807,7 +14807,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -14838,7 +14838,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -14869,7 +14869,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -14900,7 +14900,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -14931,7 +14931,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -14962,7 +14962,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -14993,7 +14993,7 @@ produto.get("/", async (req, res) => {
       balanca: 1,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "KG",
+      unidadeVenda: "KG",
       tipoVenda: null,
       pesoVariavel: "S",
       codigosAuxiliares: [
@@ -15024,7 +15024,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "KG",
+      unidadeVenda: "KG",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -15055,7 +15055,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -15086,7 +15086,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -15117,7 +15117,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -15148,7 +15148,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -15179,7 +15179,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -15210,7 +15210,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -15241,7 +15241,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -15272,7 +15272,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -15303,7 +15303,7 @@ produto.get("/", async (req, res) => {
       balanca: 1,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "KG",
+      unidadeVenda: "KG",
       tipoVenda: null,
       pesoVariavel: "S",
       codigosAuxiliares: [
@@ -15334,7 +15334,7 @@ produto.get("/", async (req, res) => {
       balanca: 1,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "KG",
+      unidadeVenda: "KG",
       tipoVenda: null,
       pesoVariavel: "S",
       codigosAuxiliares: [
@@ -15365,7 +15365,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "KG",
+      unidadeVenda: "KG",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -15396,7 +15396,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -15427,7 +15427,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -15494,7 +15494,7 @@ produto.get("/", async (req, res) => {
       balanca: 1,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "KG",
+      unidadeVenda: "KG",
       tipoVenda: null,
       pesoVariavel: "S",
       codigosAuxiliares: [
@@ -15525,7 +15525,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -15556,7 +15556,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -15587,7 +15587,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -15618,7 +15618,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -15649,7 +15649,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -15680,7 +15680,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -15711,7 +15711,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -15742,7 +15742,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -15773,7 +15773,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -15804,7 +15804,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -15835,7 +15835,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -15866,7 +15866,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -15897,7 +15897,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -15928,7 +15928,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -15959,7 +15959,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -15990,7 +15990,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -16021,7 +16021,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -16052,7 +16052,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -16083,7 +16083,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -16114,7 +16114,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -16145,7 +16145,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -16176,7 +16176,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -16207,7 +16207,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -16238,7 +16238,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -16269,7 +16269,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -16300,7 +16300,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -16331,7 +16331,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -16362,7 +16362,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -16393,7 +16393,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -16460,7 +16460,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -16515,7 +16515,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -16546,7 +16546,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -16577,7 +16577,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -16608,7 +16608,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -16663,7 +16663,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -16694,7 +16694,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -16725,7 +16725,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -16792,7 +16792,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -16847,7 +16847,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -16878,7 +16878,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -16909,7 +16909,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -16940,7 +16940,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -16971,7 +16971,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -17002,7 +17002,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -17033,7 +17033,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -17064,7 +17064,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -17095,7 +17095,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -17126,7 +17126,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -17157,7 +17157,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -17188,7 +17188,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -17219,7 +17219,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -17250,7 +17250,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -17281,7 +17281,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -17312,7 +17312,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -17343,7 +17343,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -17374,7 +17374,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -17405,7 +17405,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -17436,7 +17436,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -17467,7 +17467,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -17498,7 +17498,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -17529,7 +17529,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -17560,7 +17560,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -17591,7 +17591,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -17622,7 +17622,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -17653,7 +17653,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -17684,7 +17684,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -17715,7 +17715,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -17746,7 +17746,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -17777,7 +17777,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -17808,7 +17808,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -17839,7 +17839,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -17870,7 +17870,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -17901,7 +17901,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -17932,7 +17932,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -17963,7 +17963,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -17994,7 +17994,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -18025,7 +18025,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -18056,7 +18056,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -18087,7 +18087,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -18118,7 +18118,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -18149,7 +18149,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -18180,7 +18180,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -18211,7 +18211,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "S",
       codigosAuxiliares: [
@@ -18242,7 +18242,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -18273,7 +18273,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -18304,7 +18304,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -18335,7 +18335,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -18366,7 +18366,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -18397,7 +18397,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -18428,7 +18428,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -18459,7 +18459,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -18490,7 +18490,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "KG",
+      unidadeVenda: "KG",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -18521,7 +18521,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -18552,7 +18552,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -18583,7 +18583,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -18614,7 +18614,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -18657,7 +18657,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -18688,7 +18688,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -18719,7 +18719,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -18750,7 +18750,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -18781,7 +18781,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -18812,7 +18812,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -18843,7 +18843,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -18874,7 +18874,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -18905,7 +18905,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -18936,7 +18936,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -18967,7 +18967,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -19000,7 +19000,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -19031,7 +19031,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -19062,7 +19062,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -19093,7 +19093,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -19124,7 +19124,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -19155,7 +19155,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -19186,7 +19186,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -19217,7 +19217,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -19248,7 +19248,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -19279,7 +19279,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -19310,7 +19310,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -19341,7 +19341,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -19372,7 +19372,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -19403,7 +19403,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -19434,7 +19434,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -19477,7 +19477,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -19508,7 +19508,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -19539,7 +19539,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -19570,7 +19570,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -19601,7 +19601,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -19632,7 +19632,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -19663,7 +19663,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -19790,7 +19790,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -19869,7 +19869,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -19936,7 +19936,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -19967,7 +19967,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -20094,7 +20094,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -20161,7 +20161,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -20192,7 +20192,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -20223,7 +20223,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -20302,7 +20302,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -20393,7 +20393,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -20424,7 +20424,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -20479,7 +20479,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -20510,7 +20510,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -20541,7 +20541,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -20572,7 +20572,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -20603,7 +20603,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -20634,7 +20634,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -20665,7 +20665,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -20696,7 +20696,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -20727,7 +20727,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -20758,7 +20758,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -20789,7 +20789,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -20820,7 +20820,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -20851,7 +20851,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -20882,7 +20882,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -20913,7 +20913,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -20944,7 +20944,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -20975,7 +20975,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -21066,7 +21066,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -21097,7 +21097,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -21128,7 +21128,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -21159,7 +21159,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -21190,7 +21190,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -21221,7 +21221,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -21252,7 +21252,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -21283,7 +21283,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -21314,7 +21314,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -21345,7 +21345,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -21376,7 +21376,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 10,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -21407,7 +21407,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -21438,7 +21438,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -21469,7 +21469,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -21500,7 +21500,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -21531,7 +21531,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -21562,7 +21562,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -21593,7 +21593,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -21624,7 +21624,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -21655,7 +21655,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -21686,7 +21686,7 @@ produto.get("/", async (req, res) => {
       balanca: 1,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "KG",
+      unidadeVenda: "KG",
       tipoVenda: null,
       pesoVariavel: "S",
       codigosAuxiliares: [
@@ -21717,7 +21717,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -21748,7 +21748,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -21779,7 +21779,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -21810,7 +21810,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -21841,7 +21841,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -21872,7 +21872,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -21903,7 +21903,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -21934,7 +21934,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -21965,7 +21965,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -21996,7 +21996,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -22027,7 +22027,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -22058,7 +22058,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -22089,7 +22089,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -22120,7 +22120,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -22151,7 +22151,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -22182,7 +22182,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -22213,7 +22213,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -22244,7 +22244,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -22275,7 +22275,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -22306,7 +22306,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -22337,7 +22337,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -22368,7 +22368,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -22399,7 +22399,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -22430,7 +22430,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -22461,7 +22461,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -22492,7 +22492,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -22523,7 +22523,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -22554,7 +22554,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -22585,7 +22585,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -22616,7 +22616,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -22647,7 +22647,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -22678,7 +22678,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -22709,7 +22709,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -22740,7 +22740,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -22771,7 +22771,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -22802,7 +22802,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -22833,7 +22833,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -22864,7 +22864,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -22895,7 +22895,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -22926,7 +22926,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "KG",
+      unidadeVenda: "KG",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -22957,7 +22957,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -22988,7 +22988,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -23019,7 +23019,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -23050,7 +23050,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -23081,7 +23081,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -23112,7 +23112,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -23143,7 +23143,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -23174,7 +23174,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -23205,7 +23205,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -23236,7 +23236,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -23267,7 +23267,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -23298,7 +23298,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -23329,7 +23329,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -23360,7 +23360,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -23391,7 +23391,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -23422,7 +23422,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -23453,7 +23453,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -23484,7 +23484,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -23515,7 +23515,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -23546,7 +23546,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -23577,7 +23577,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -23608,7 +23608,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -23639,7 +23639,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -23670,7 +23670,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -23701,7 +23701,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -23732,7 +23732,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -23763,7 +23763,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -23806,7 +23806,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -23849,7 +23849,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -23892,7 +23892,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -23935,7 +23935,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -23978,7 +23978,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -24021,7 +24021,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -24064,7 +24064,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -24095,7 +24095,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -24126,7 +24126,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -24157,7 +24157,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -24188,7 +24188,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -24219,7 +24219,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -24250,7 +24250,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -24281,7 +24281,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -24312,7 +24312,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -24343,7 +24343,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -24374,7 +24374,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -24405,7 +24405,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -24436,7 +24436,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -24467,7 +24467,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -24498,7 +24498,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -24529,7 +24529,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -24560,7 +24560,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -24591,7 +24591,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -24622,7 +24622,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -24653,7 +24653,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -24684,7 +24684,7 @@ produto.get("/", async (req, res) => {
       balanca: 1,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "KG",
+      unidadeVenda: "KG",
       tipoVenda: null,
       pesoVariavel: "S",
       codigosAuxiliares: [
@@ -24715,7 +24715,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -24746,7 +24746,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -24777,7 +24777,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -24808,7 +24808,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -24839,7 +24839,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -24870,7 +24870,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -24901,7 +24901,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "KG",
+      unidadeVenda: "KG",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -24932,7 +24932,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -24963,7 +24963,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -24994,7 +24994,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -25025,7 +25025,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -25056,7 +25056,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -25087,7 +25087,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -25118,7 +25118,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -25149,7 +25149,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -25192,7 +25192,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -25223,7 +25223,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 6,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -25254,7 +25254,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -25285,7 +25285,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -25316,7 +25316,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -25347,7 +25347,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -25378,7 +25378,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -25409,7 +25409,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -25440,7 +25440,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -25471,7 +25471,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -25502,7 +25502,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -25533,7 +25533,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -25564,7 +25564,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 5.88,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "S",
       codigosAuxiliares: [
@@ -25595,7 +25595,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -25626,7 +25626,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -25657,7 +25657,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -25688,7 +25688,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -25731,7 +25731,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -25762,7 +25762,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -25841,7 +25841,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -25872,7 +25872,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -25903,7 +25903,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "S",
       codigosAuxiliares: [
@@ -25934,7 +25934,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -25965,7 +25965,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -25996,7 +25996,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -26027,7 +26027,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -26058,7 +26058,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -26089,7 +26089,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -26120,7 +26120,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -26151,7 +26151,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -26182,7 +26182,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -26213,7 +26213,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -26244,7 +26244,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -26275,7 +26275,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -26306,7 +26306,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -26337,7 +26337,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -26368,7 +26368,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -26399,7 +26399,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -26430,7 +26430,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "KG",
+      unidadeVenda: "KG",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -26461,7 +26461,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -26492,7 +26492,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -26523,7 +26523,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -26554,7 +26554,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -26585,7 +26585,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -26616,7 +26616,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -26647,7 +26647,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -26678,7 +26678,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "KG",
+      unidadeVenda: "KG",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -26709,7 +26709,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "KG",
+      unidadeVenda: "KG",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -26740,7 +26740,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -26771,7 +26771,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -26802,7 +26802,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -26833,7 +26833,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -26864,7 +26864,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -26895,7 +26895,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -26926,7 +26926,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -26957,7 +26957,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -26988,7 +26988,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -27019,7 +27019,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -27050,7 +27050,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -27081,7 +27081,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -27112,7 +27112,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -27143,7 +27143,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -27174,7 +27174,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -27205,7 +27205,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -27236,7 +27236,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -27267,7 +27267,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -27298,7 +27298,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -27329,7 +27329,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "KG",
+      unidadeVenda: "KG",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -27360,7 +27360,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -27391,7 +27391,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -27422,7 +27422,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -27453,7 +27453,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -27484,7 +27484,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -27515,7 +27515,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -27546,7 +27546,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -27577,7 +27577,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -27608,7 +27608,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -27639,7 +27639,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -27670,7 +27670,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -27701,7 +27701,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -27732,7 +27732,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -27763,7 +27763,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -27794,7 +27794,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -27825,7 +27825,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -27856,7 +27856,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -27887,7 +27887,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -27918,7 +27918,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -27949,7 +27949,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -27980,7 +27980,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -28011,7 +28011,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -28042,7 +28042,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -28073,7 +28073,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -28104,7 +28104,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -28135,7 +28135,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -28166,7 +28166,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -28197,7 +28197,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -28228,7 +28228,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -28259,7 +28259,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -28290,7 +28290,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -28321,7 +28321,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -28352,7 +28352,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -28383,7 +28383,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -28414,7 +28414,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -28445,7 +28445,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -28476,7 +28476,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -28507,7 +28507,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -28538,7 +28538,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -28569,7 +28569,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -28600,7 +28600,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -28631,7 +28631,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -28662,7 +28662,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -28693,7 +28693,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -28724,7 +28724,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -28755,7 +28755,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -28786,7 +28786,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -28817,7 +28817,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -28848,7 +28848,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -28879,7 +28879,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -28910,7 +28910,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -28941,7 +28941,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -28972,7 +28972,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -29003,7 +29003,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 12,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -29034,7 +29034,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -29065,7 +29065,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -29096,7 +29096,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -29127,7 +29127,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -29158,7 +29158,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -29189,7 +29189,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -29220,7 +29220,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -29251,7 +29251,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -29282,7 +29282,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 12,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -29313,7 +29313,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 12,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -29344,7 +29344,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 12,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -29375,7 +29375,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -29406,7 +29406,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -29437,7 +29437,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 12,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -29468,7 +29468,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -29499,7 +29499,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -29530,7 +29530,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -29561,7 +29561,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -29592,7 +29592,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -29623,7 +29623,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -29654,7 +29654,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -29685,7 +29685,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -29716,7 +29716,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -29747,7 +29747,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -29778,7 +29778,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "S",
       codigosAuxiliares: [
@@ -29809,7 +29809,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -29840,7 +29840,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -29871,7 +29871,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -29902,7 +29902,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -29933,7 +29933,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -29964,7 +29964,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -29995,7 +29995,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 12,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -30026,7 +30026,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 12,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -30057,7 +30057,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 12,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -30088,7 +30088,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -30119,7 +30119,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -30150,7 +30150,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -30181,7 +30181,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 12,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -30212,7 +30212,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 12,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -30243,7 +30243,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -30274,7 +30274,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -30305,7 +30305,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -30336,7 +30336,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -30367,7 +30367,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 12,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -30398,7 +30398,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 12,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -30429,7 +30429,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -30460,7 +30460,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -30491,7 +30491,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 12,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -30522,7 +30522,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 12,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -30553,7 +30553,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -30584,7 +30584,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -30615,7 +30615,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -30646,7 +30646,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -30677,7 +30677,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -30708,7 +30708,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -30739,7 +30739,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -30770,7 +30770,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -30801,7 +30801,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -30832,7 +30832,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -30863,7 +30863,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -30894,7 +30894,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -30925,7 +30925,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -30956,7 +30956,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -30987,7 +30987,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -31018,7 +31018,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -31049,7 +31049,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -31080,7 +31080,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -31111,7 +31111,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -31142,7 +31142,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -31173,7 +31173,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -31204,7 +31204,7 @@ produto.get("/", async (req, res) => {
       balanca: 1,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "KG",
+      unidadeVenda: "KG",
       tipoVenda: null,
       pesoVariavel: "P",
       codigosAuxiliares: [
@@ -31235,7 +31235,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -31302,7 +31302,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -31333,7 +31333,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -31364,7 +31364,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -31395,7 +31395,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -31426,7 +31426,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -31457,7 +31457,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -31488,7 +31488,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -31519,7 +31519,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -31550,7 +31550,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -31581,7 +31581,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -31612,7 +31612,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -31643,7 +31643,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -31674,7 +31674,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -31705,7 +31705,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -31736,7 +31736,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -31767,7 +31767,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -31798,7 +31798,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -31829,7 +31829,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -31860,7 +31860,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -31891,7 +31891,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -31922,7 +31922,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -31953,7 +31953,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -31984,7 +31984,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -32015,7 +32015,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -32046,7 +32046,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -32077,7 +32077,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -32108,7 +32108,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -32139,7 +32139,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -32170,7 +32170,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -32201,7 +32201,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -32232,7 +32232,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -32263,7 +32263,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -32294,7 +32294,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -32325,7 +32325,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -32356,7 +32356,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -32387,7 +32387,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -32418,7 +32418,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -32449,7 +32449,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -32480,7 +32480,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -32511,7 +32511,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -32542,7 +32542,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -32573,7 +32573,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -32604,7 +32604,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -32635,7 +32635,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -32666,7 +32666,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -32697,7 +32697,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -32728,7 +32728,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -32759,7 +32759,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -32790,7 +32790,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -32821,7 +32821,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "KG",
+      unidadeVenda: "KG",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -32852,7 +32852,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -32883,7 +32883,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -32914,7 +32914,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 10,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -32945,7 +32945,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -32976,7 +32976,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 10,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -33007,7 +33007,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -33038,7 +33038,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -33069,7 +33069,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -33100,7 +33100,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -33131,7 +33131,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -33162,7 +33162,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -33193,7 +33193,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -33224,7 +33224,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -33255,7 +33255,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -33286,7 +33286,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -33317,7 +33317,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -33348,7 +33348,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -33379,7 +33379,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -33410,7 +33410,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -33441,7 +33441,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -33472,7 +33472,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -33503,7 +33503,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -33534,7 +33534,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -33565,7 +33565,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -33596,7 +33596,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -33627,7 +33627,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -33658,7 +33658,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -33689,7 +33689,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -33720,7 +33720,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -33751,7 +33751,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -33782,7 +33782,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -33813,7 +33813,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -33844,7 +33844,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -33875,7 +33875,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -33906,7 +33906,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -33937,7 +33937,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -33968,7 +33968,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -33999,7 +33999,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -34030,7 +34030,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -34061,7 +34061,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -34092,7 +34092,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -34123,7 +34123,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -34154,7 +34154,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -34185,7 +34185,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -34216,7 +34216,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -34247,7 +34247,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -34278,7 +34278,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -34309,7 +34309,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -34340,7 +34340,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -34395,7 +34395,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -34546,7 +34546,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -34625,7 +34625,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -34656,7 +34656,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -34687,7 +34687,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -34718,7 +34718,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "KG",
+      unidadeVenda: "KG",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -34749,7 +34749,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "KG",
+      unidadeVenda: "KG",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -34780,7 +34780,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -34811,7 +34811,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -34842,7 +34842,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -34873,7 +34873,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -34904,7 +34904,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -34935,7 +34935,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -34966,7 +34966,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "KG",
+      unidadeVenda: "KG",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -34997,7 +34997,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "KG",
+      unidadeVenda: "KG",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -35028,7 +35028,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -35059,7 +35059,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -35090,7 +35090,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -35121,7 +35121,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "KG",
+      unidadeVenda: "KG",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -35152,7 +35152,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "KG",
+      unidadeVenda: "KG",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -35183,7 +35183,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -35214,7 +35214,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -35245,7 +35245,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "KG",
+      unidadeVenda: "KG",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -35276,7 +35276,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -35307,7 +35307,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -35338,7 +35338,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -35369,7 +35369,7 @@ produto.get("/", async (req, res) => {
       balanca: 1,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "KG",
+      unidadeVenda: "KG",
       tipoVenda: null,
       pesoVariavel: "S",
       codigosAuxiliares: [
@@ -35400,7 +35400,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -35431,7 +35431,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -35462,7 +35462,7 @@ produto.get("/", async (req, res) => {
       balanca: 1,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "KG",
+      unidadeVenda: "KG",
       tipoVenda: null,
       pesoVariavel: "S",
       codigosAuxiliares: [
@@ -35493,7 +35493,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -35524,7 +35524,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -35555,7 +35555,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -35586,7 +35586,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -35617,7 +35617,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -35648,7 +35648,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -35679,7 +35679,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -35710,7 +35710,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -35741,7 +35741,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -35772,7 +35772,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -35803,7 +35803,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -35834,7 +35834,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -35865,7 +35865,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -35896,7 +35896,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -35927,7 +35927,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -35958,7 +35958,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -35989,7 +35989,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -36020,7 +36020,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -36051,7 +36051,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -36082,7 +36082,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -36113,7 +36113,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -36144,7 +36144,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -36175,7 +36175,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -36206,7 +36206,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -36237,7 +36237,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -36268,7 +36268,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -36299,7 +36299,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -36330,7 +36330,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -36361,7 +36361,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -36392,7 +36392,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -36423,7 +36423,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -36454,7 +36454,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -36485,7 +36485,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -36516,7 +36516,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -36547,7 +36547,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -36578,7 +36578,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -36609,7 +36609,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -36640,7 +36640,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -36671,7 +36671,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -36702,7 +36702,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -36733,7 +36733,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "KG",
+      unidadeVenda: "KG",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -36764,7 +36764,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -36795,7 +36795,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -36826,7 +36826,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "KG",
+      unidadeVenda: "KG",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -36857,7 +36857,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -36888,7 +36888,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -36919,7 +36919,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -36950,7 +36950,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -36981,7 +36981,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -37012,7 +37012,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -37043,7 +37043,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -37074,7 +37074,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -37105,7 +37105,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -37136,7 +37136,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -37167,7 +37167,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -37198,7 +37198,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -37229,7 +37229,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -37260,7 +37260,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -37291,7 +37291,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -37322,7 +37322,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -37353,7 +37353,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -37384,7 +37384,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -37415,7 +37415,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -37446,7 +37446,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -37477,7 +37477,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -37508,7 +37508,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -37539,7 +37539,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -37570,7 +37570,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -37601,7 +37601,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -37632,7 +37632,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -37663,7 +37663,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -37694,7 +37694,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -37725,7 +37725,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -37756,7 +37756,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -37787,7 +37787,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -37818,7 +37818,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "KG",
+      unidadeVenda: "KG",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -37849,7 +37849,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -37880,7 +37880,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -37911,7 +37911,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -37942,7 +37942,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -37973,7 +37973,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -38004,7 +38004,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -38035,7 +38035,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -38066,7 +38066,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -38097,7 +38097,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -38128,7 +38128,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -38159,7 +38159,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -38190,7 +38190,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 16,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -38221,7 +38221,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -38252,7 +38252,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -38283,7 +38283,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -38314,7 +38314,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -38345,7 +38345,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -38376,7 +38376,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -38407,7 +38407,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -38438,7 +38438,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -38469,7 +38469,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -38502,7 +38502,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -38533,7 +38533,7 @@ produto.get("/", async (req, res) => {
       balanca: 1,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "KG",
+      unidadeVenda: "KG",
       tipoVenda: null,
       pesoVariavel: "S",
       codigosAuxiliares: [
@@ -38564,7 +38564,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -38595,7 +38595,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -38626,7 +38626,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -38657,7 +38657,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -38688,7 +38688,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -38719,7 +38719,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -38750,7 +38750,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -38781,7 +38781,7 @@ produto.get("/", async (req, res) => {
       balanca: 1,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -38812,7 +38812,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -38843,7 +38843,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -38874,7 +38874,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "KG",
+      unidadeVenda: "KG",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -38941,7 +38941,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -38972,7 +38972,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -39003,7 +39003,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -39034,7 +39034,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -39065,7 +39065,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -39096,7 +39096,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -39127,7 +39127,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 12,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -39158,7 +39158,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -39189,7 +39189,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -39220,7 +39220,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -39251,7 +39251,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -39282,7 +39282,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -39313,7 +39313,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -39344,7 +39344,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -39375,7 +39375,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "KG",
+      unidadeVenda: "KG",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -39406,7 +39406,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -39437,7 +39437,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -39468,7 +39468,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -39499,7 +39499,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -39530,7 +39530,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "KG",
+      unidadeVenda: "KG",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -39561,7 +39561,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -39592,7 +39592,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -39623,7 +39623,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -39654,7 +39654,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -39685,7 +39685,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -39716,7 +39716,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -39747,7 +39747,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -39778,7 +39778,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -39809,7 +39809,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -39840,7 +39840,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -39871,7 +39871,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -39902,7 +39902,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -39933,7 +39933,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -39964,7 +39964,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -39995,7 +39995,7 @@ produto.get("/", async (req, res) => {
       balanca: 1,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "KG",
+      unidadeVenda: "KG",
       tipoVenda: null,
       pesoVariavel: "S",
       codigosAuxiliares: [
@@ -40026,7 +40026,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -40057,7 +40057,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -40088,7 +40088,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -40119,7 +40119,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -40150,7 +40150,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -40181,7 +40181,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -40212,7 +40212,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -40243,7 +40243,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -40274,7 +40274,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -40305,7 +40305,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -40336,7 +40336,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -40367,7 +40367,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -40398,7 +40398,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -40429,7 +40429,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -40460,7 +40460,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -40491,7 +40491,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -40522,7 +40522,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -40553,7 +40553,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -40584,7 +40584,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -40615,7 +40615,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -40646,7 +40646,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -40677,7 +40677,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -40708,7 +40708,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -40739,7 +40739,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -40770,7 +40770,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -40801,7 +40801,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -40880,7 +40880,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -40911,7 +40911,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -40942,7 +40942,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -40973,7 +40973,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -41004,7 +41004,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -41035,7 +41035,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -41066,7 +41066,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -41097,7 +41097,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -41128,7 +41128,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -41159,7 +41159,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -41190,7 +41190,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -41221,7 +41221,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -41252,7 +41252,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -41283,7 +41283,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -41314,7 +41314,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -41345,7 +41345,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -41376,7 +41376,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -41407,7 +41407,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -41438,7 +41438,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -41469,7 +41469,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -41500,7 +41500,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -41531,7 +41531,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -41562,7 +41562,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -41593,7 +41593,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -41624,7 +41624,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -41655,7 +41655,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -41686,7 +41686,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -41717,7 +41717,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -41748,7 +41748,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -41779,7 +41779,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -41810,7 +41810,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -41841,7 +41841,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -41872,7 +41872,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -41903,7 +41903,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -41934,7 +41934,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -41965,7 +41965,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -41996,7 +41996,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -42027,7 +42027,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -42058,7 +42058,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -42089,7 +42089,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -42168,7 +42168,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -42199,7 +42199,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -42230,7 +42230,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -42261,7 +42261,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -42292,7 +42292,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -42323,7 +42323,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -42354,7 +42354,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -42385,7 +42385,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -42416,7 +42416,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -42447,7 +42447,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -42478,7 +42478,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -42509,7 +42509,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -42540,7 +42540,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -42571,7 +42571,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -42602,7 +42602,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -42633,7 +42633,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -42664,7 +42664,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -42695,7 +42695,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -42726,7 +42726,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -42757,7 +42757,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -42788,7 +42788,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -42831,7 +42831,7 @@ produto.get("/", async (req, res) => {
       balanca: 1,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "KG",
+      unidadeVenda: "KG",
       tipoVenda: null,
       pesoVariavel: "S",
       codigosAuxiliares: [
@@ -42862,7 +42862,7 @@ produto.get("/", async (req, res) => {
       balanca: 1,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "KG",
+      unidadeVenda: "KG",
       tipoVenda: null,
       pesoVariavel: "S",
       codigosAuxiliares: [
@@ -42893,7 +42893,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -42924,7 +42924,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -42955,7 +42955,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -42986,7 +42986,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -43017,7 +43017,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -43048,7 +43048,7 @@ produto.get("/", async (req, res) => {
       balanca: 1,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "KG",
+      unidadeVenda: "KG",
       tipoVenda: null,
       pesoVariavel: "S",
       codigosAuxiliares: [
@@ -43079,7 +43079,7 @@ produto.get("/", async (req, res) => {
       balanca: 1,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "KG",
+      unidadeVenda: "KG",
       tipoVenda: null,
       pesoVariavel: "S",
       codigosAuxiliares: [
@@ -43110,7 +43110,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -43141,7 +43141,7 @@ produto.get("/", async (req, res) => {
       balanca: 1,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "KG",
+      unidadeVenda: "KG",
       tipoVenda: null,
       pesoVariavel: "S",
       codigosAuxiliares: [
@@ -43172,7 +43172,7 @@ produto.get("/", async (req, res) => {
       balanca: 1,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "KG",
+      unidadeVenda: "KG",
       tipoVenda: null,
       pesoVariavel: "S",
       codigosAuxiliares: [
@@ -43203,7 +43203,7 @@ produto.get("/", async (req, res) => {
       balanca: 1,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "KG",
+      unidadeVenda: "KG",
       tipoVenda: null,
       pesoVariavel: "S",
       codigosAuxiliares: [
@@ -43234,7 +43234,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -43265,7 +43265,7 @@ produto.get("/", async (req, res) => {
       balanca: 1,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "KG",
+      unidadeVenda: "KG",
       tipoVenda: null,
       pesoVariavel: "S",
       codigosAuxiliares: [
@@ -43296,7 +43296,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -43327,7 +43327,7 @@ produto.get("/", async (req, res) => {
       balanca: 1,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "KG",
+      unidadeVenda: "KG",
       tipoVenda: null,
       pesoVariavel: "S",
       codigosAuxiliares: [
@@ -43358,7 +43358,7 @@ produto.get("/", async (req, res) => {
       balanca: 1,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "KG",
+      unidadeVenda: "KG",
       tipoVenda: null,
       pesoVariavel: "S",
       codigosAuxiliares: [
@@ -43389,7 +43389,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -43420,7 +43420,7 @@ produto.get("/", async (req, res) => {
       balanca: 1,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "KG",
+      unidadeVenda: "KG",
       tipoVenda: null,
       pesoVariavel: "S",
       codigosAuxiliares: [
@@ -43451,7 +43451,7 @@ produto.get("/", async (req, res) => {
       balanca: 1,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "KG",
+      unidadeVenda: "KG",
       tipoVenda: null,
       pesoVariavel: "S",
       codigosAuxiliares: [
@@ -43482,7 +43482,7 @@ produto.get("/", async (req, res) => {
       balanca: 1,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "KG",
+      unidadeVenda: "KG",
       tipoVenda: null,
       pesoVariavel: "S",
       codigosAuxiliares: [
@@ -43513,7 +43513,7 @@ produto.get("/", async (req, res) => {
       balanca: 1,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "KG",
+      unidadeVenda: "KG",
       tipoVenda: null,
       pesoVariavel: "S",
       codigosAuxiliares: [
@@ -43544,7 +43544,7 @@ produto.get("/", async (req, res) => {
       balanca: 1,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "KG",
+      unidadeVenda: "KG",
       tipoVenda: null,
       pesoVariavel: "S",
       codigosAuxiliares: [
@@ -43575,7 +43575,7 @@ produto.get("/", async (req, res) => {
       balanca: 1,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "KG",
+      unidadeVenda: "KG",
       tipoVenda: null,
       pesoVariavel: "S",
       codigosAuxiliares: [
@@ -43606,7 +43606,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -43637,7 +43637,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -43668,7 +43668,7 @@ produto.get("/", async (req, res) => {
       balanca: 1,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "KG",
+      unidadeVenda: "KG",
       tipoVenda: null,
       pesoVariavel: "S",
       codigosAuxiliares: [
@@ -43699,7 +43699,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -43730,7 +43730,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -43761,7 +43761,7 @@ produto.get("/", async (req, res) => {
       balanca: 1,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "KG",
+      unidadeVenda: "KG",
       tipoVenda: null,
       pesoVariavel: "S",
       codigosAuxiliares: [
@@ -43792,7 +43792,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -43823,7 +43823,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -43854,7 +43854,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -43885,7 +43885,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -43916,7 +43916,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -43947,7 +43947,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -43978,7 +43978,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -44009,7 +44009,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -44040,7 +44040,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -44071,7 +44071,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 15,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -44102,7 +44102,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 15,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -44133,7 +44133,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 15,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -44164,7 +44164,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 15,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -44195,7 +44195,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 15,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -44226,7 +44226,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -44257,7 +44257,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -44288,7 +44288,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "KG",
+      unidadeVenda: "KG",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -44319,7 +44319,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "KG",
+      unidadeVenda: "KG",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -44350,7 +44350,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -44381,7 +44381,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "KG",
+      unidadeVenda: "KG",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -44412,7 +44412,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -44443,7 +44443,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "KG",
+      unidadeVenda: "KG",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -44474,7 +44474,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -44505,7 +44505,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "KG",
+      unidadeVenda: "KG",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -44536,7 +44536,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -44567,7 +44567,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 15,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -44634,7 +44634,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -44665,7 +44665,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -44696,7 +44696,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -44727,7 +44727,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -44758,7 +44758,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -44789,7 +44789,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -44820,7 +44820,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -44851,7 +44851,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -44882,7 +44882,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -44913,7 +44913,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -44944,7 +44944,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -44975,7 +44975,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -45006,7 +45006,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -45037,7 +45037,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -45068,7 +45068,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -45099,7 +45099,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -45130,7 +45130,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -45161,7 +45161,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -45192,7 +45192,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -45223,7 +45223,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -45254,7 +45254,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -45285,7 +45285,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -45316,7 +45316,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -45347,7 +45347,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -45378,7 +45378,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -45409,7 +45409,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -45440,7 +45440,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -45471,7 +45471,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -45502,7 +45502,7 @@ produto.get("/", async (req, res) => {
       balanca: 1,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "KG",
+      unidadeVenda: "KG",
       tipoVenda: null,
       pesoVariavel: "S",
       codigosAuxiliares: [
@@ -45533,7 +45533,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -45564,7 +45564,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -45595,7 +45595,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -45626,7 +45626,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -45657,7 +45657,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -45688,7 +45688,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -45719,7 +45719,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -45750,7 +45750,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -45781,7 +45781,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -45812,7 +45812,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -45843,7 +45843,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -45874,7 +45874,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -45905,7 +45905,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -45936,7 +45936,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -45967,7 +45967,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -45998,7 +45998,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -46029,7 +46029,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -46060,7 +46060,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -46091,7 +46091,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -46122,7 +46122,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -46153,7 +46153,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -46184,7 +46184,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -46215,7 +46215,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -46246,7 +46246,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -46277,7 +46277,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -46308,7 +46308,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -46339,7 +46339,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -46370,7 +46370,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -46401,7 +46401,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -46432,7 +46432,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -46463,7 +46463,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -46494,7 +46494,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -46525,7 +46525,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -46556,7 +46556,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -46587,7 +46587,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -46618,7 +46618,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -46649,7 +46649,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -46680,7 +46680,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -46711,7 +46711,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -46742,7 +46742,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -46773,7 +46773,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -46804,7 +46804,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -46835,7 +46835,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -46866,7 +46866,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -46897,7 +46897,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -46928,7 +46928,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -46959,7 +46959,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -46990,7 +46990,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -47021,7 +47021,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -47052,7 +47052,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -47083,7 +47083,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -47114,7 +47114,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -47145,7 +47145,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -47176,7 +47176,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -47207,7 +47207,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -47238,7 +47238,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -47269,7 +47269,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -47300,7 +47300,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "KG",
+      unidadeVenda: "KG",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -47331,7 +47331,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "KG",
+      unidadeVenda: "KG",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -47362,7 +47362,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -47393,7 +47393,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -47424,7 +47424,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "KG",
+      unidadeVenda: "KG",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -47455,7 +47455,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "KG",
+      unidadeVenda: "KG",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -47486,7 +47486,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "KG",
+      unidadeVenda: "KG",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -47517,7 +47517,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "KG",
+      unidadeVenda: "KG",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -47548,7 +47548,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "KG",
+      unidadeVenda: "KG",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -47579,7 +47579,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -47610,7 +47610,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -47641,7 +47641,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -47672,7 +47672,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -47703,7 +47703,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -47734,7 +47734,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -47765,7 +47765,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -47796,7 +47796,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -47827,7 +47827,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -47858,7 +47858,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -47889,7 +47889,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -47920,7 +47920,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -47951,7 +47951,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -47982,7 +47982,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -48013,7 +48013,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -48044,7 +48044,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -48075,7 +48075,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -48106,7 +48106,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -48137,7 +48137,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -48168,7 +48168,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -48199,7 +48199,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -48230,7 +48230,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -48261,7 +48261,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -48292,7 +48292,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -48323,7 +48323,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -48354,7 +48354,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -48385,7 +48385,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -48416,7 +48416,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -48447,7 +48447,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -48478,7 +48478,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -48509,7 +48509,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -48540,7 +48540,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -48571,7 +48571,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -48602,7 +48602,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -48633,7 +48633,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -48664,7 +48664,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "S",
       codigosAuxiliares: [
@@ -48695,7 +48695,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -48726,7 +48726,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -48757,7 +48757,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -48788,7 +48788,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -48819,7 +48819,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -48850,7 +48850,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -48881,7 +48881,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -48912,7 +48912,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -48943,7 +48943,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -48974,7 +48974,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -49005,7 +49005,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -49036,7 +49036,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -49067,7 +49067,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -49098,7 +49098,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -49129,7 +49129,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -49160,7 +49160,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -49191,7 +49191,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -49222,7 +49222,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -49253,7 +49253,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -49284,7 +49284,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -49315,7 +49315,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -49346,7 +49346,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -49377,7 +49377,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -49408,7 +49408,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -49439,7 +49439,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -49470,7 +49470,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -49501,7 +49501,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -49532,7 +49532,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -49563,7 +49563,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -49594,7 +49594,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -49625,7 +49625,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -49656,7 +49656,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -49687,7 +49687,7 @@ produto.get("/", async (req, res) => {
       balanca: 1,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 8.295,
-      unidadeMedida: "KG",
+      unidadeVenda: "KG",
       tipoVenda: null,
       pesoVariavel: "S",
       codigosAuxiliares: [
@@ -49718,7 +49718,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -49749,7 +49749,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -49780,7 +49780,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -49811,7 +49811,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -49842,7 +49842,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -49873,7 +49873,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -49904,7 +49904,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -49935,7 +49935,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -49966,7 +49966,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -49997,7 +49997,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -50028,7 +50028,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -50059,7 +50059,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -50090,7 +50090,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -50121,7 +50121,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -50152,7 +50152,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -50183,7 +50183,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -50214,7 +50214,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -50245,7 +50245,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -50276,7 +50276,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -50307,7 +50307,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -50338,7 +50338,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -50369,7 +50369,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -50400,7 +50400,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -50431,7 +50431,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -50462,7 +50462,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -50493,7 +50493,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -50524,7 +50524,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -50555,7 +50555,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -50586,7 +50586,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -50617,7 +50617,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -50648,7 +50648,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -50679,7 +50679,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -50710,7 +50710,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -50741,7 +50741,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -50772,7 +50772,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -50803,7 +50803,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "KG",
+      unidadeVenda: "KG",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -50834,7 +50834,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -50865,7 +50865,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -50896,7 +50896,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -50927,7 +50927,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -50958,7 +50958,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -50989,7 +50989,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -51020,7 +51020,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -51051,7 +51051,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -51082,7 +51082,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -51113,7 +51113,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -51144,7 +51144,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -51175,7 +51175,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "KG",
+      unidadeVenda: "KG",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -51206,7 +51206,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "KG",
+      unidadeVenda: "KG",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -51237,7 +51237,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 6,
-      unidadeMedida: "KG",
+      unidadeVenda: "KG",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -51268,7 +51268,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "KG",
+      unidadeVenda: "KG",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -51299,7 +51299,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 6,
-      unidadeMedida: "KG",
+      unidadeVenda: "KG",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -51330,7 +51330,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "KG",
+      unidadeVenda: "KG",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -51361,7 +51361,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "KG",
+      unidadeVenda: "KG",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -51392,7 +51392,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "KG",
+      unidadeVenda: "KG",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -51423,7 +51423,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "KG",
+      unidadeVenda: "KG",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -51454,7 +51454,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "KG",
+      unidadeVenda: "KG",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -51485,7 +51485,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "KG",
+      unidadeVenda: "KG",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -51516,7 +51516,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "KG",
+      unidadeVenda: "KG",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -51547,7 +51547,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 6,
-      unidadeMedida: "KG",
+      unidadeVenda: "KG",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -51578,7 +51578,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "KG",
+      unidadeVenda: "KG",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -51609,7 +51609,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -51640,7 +51640,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -51671,7 +51671,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -51702,7 +51702,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -51733,7 +51733,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "KG",
+      unidadeVenda: "KG",
       tipoVenda: null,
       pesoVariavel: "S",
       codigosAuxiliares: [
@@ -51764,7 +51764,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -51795,7 +51795,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -51826,7 +51826,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -51857,7 +51857,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -51888,7 +51888,7 @@ produto.get("/", async (req, res) => {
       balanca: 1,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "KG",
+      unidadeVenda: "KG",
       tipoVenda: null,
       pesoVariavel: "S",
       codigosAuxiliares: [
@@ -51919,7 +51919,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -51950,7 +51950,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -51981,7 +51981,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -52012,7 +52012,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -52043,7 +52043,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -52074,7 +52074,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -52105,7 +52105,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -52136,7 +52136,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -52167,7 +52167,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -52198,7 +52198,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -52229,7 +52229,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -52260,7 +52260,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -52291,7 +52291,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -52322,7 +52322,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -52353,7 +52353,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -52384,7 +52384,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -52415,7 +52415,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -52446,7 +52446,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -52477,7 +52477,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -52508,7 +52508,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -52539,7 +52539,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -52570,7 +52570,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -52601,7 +52601,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -52632,7 +52632,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -52663,7 +52663,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -52694,7 +52694,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -52725,7 +52725,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -52756,7 +52756,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -52787,7 +52787,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -52818,7 +52818,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -52849,7 +52849,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -52880,7 +52880,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -52911,7 +52911,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -52942,7 +52942,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -52973,7 +52973,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -53004,7 +53004,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -53035,7 +53035,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -53066,7 +53066,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -53097,7 +53097,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -53128,7 +53128,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -53159,7 +53159,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -53190,7 +53190,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -53221,7 +53221,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -53252,7 +53252,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -53283,7 +53283,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -53314,7 +53314,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -53345,7 +53345,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -53388,7 +53388,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -53419,7 +53419,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -53450,7 +53450,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -53481,7 +53481,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -53512,7 +53512,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -53543,7 +53543,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -53574,7 +53574,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -53605,7 +53605,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -53636,7 +53636,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -53667,7 +53667,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -53698,7 +53698,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [
@@ -53729,7 +53729,7 @@ produto.get("/", async (req, res) => {
       balanca: 0,
       quantidadeEmbalagens: 1,
       quantidadeItensEmbalagens: 1,
-      unidadeMedida: "UN",
+      unidadeVenda: "UN",
       tipoVenda: null,
       pesoVariavel: "N",
       codigosAuxiliares: [

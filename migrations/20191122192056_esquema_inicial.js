@@ -118,7 +118,7 @@ exports.up = async knex => {
     tb.integer("quantidadeItensEmbalagens")
       .notNullable()
       .defaultTo(1);
-    tb.string("unidadeMedida").notNullable();
+    tb.string("unidadeVenda").notNullable();
     tb.enu("tipoVenda", [
       "FRACIONADA",
       "UNITARIA",
