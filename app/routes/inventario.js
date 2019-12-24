@@ -35,7 +35,7 @@ inventario.get("/:id", (req, res) => {
     {
       id: 654987,
       description: "Inicio do mes",
-      store_id: 123456,
+      store_id: 1,
       observation: "Lorem impsum",
       ultima_contagem: 0,
       tipo_contagem: "simples",
@@ -46,7 +46,7 @@ inventario.get("/:id", (req, res) => {
     {
       id: 321654,
       description: "Fim de mes",
-      store_id: 123456,
+      store_id: 1,
       observation: "Lorem impsum",
       ultima_contagem: 0,
       tipo_contagem: "simples",
