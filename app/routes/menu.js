@@ -6,9 +6,9 @@ menu.get("/", async (req, res) => {
   res.send([
     {
       id: 8,
-      icone: "boxes",
-      title: "Estoque",
-      subtitle: "Lorem impsum",
+      icone: "estoque",
+      title: "Controle de Estoque",
+      subtitle: "Contagem de produto",
       nativa: true,
       ordem: 0,
       submenu: [
@@ -22,6 +22,15 @@ menu.get("/", async (req, res) => {
           submenu: []
         }
       ]
+    },
+    {
+      id: 9,
+      icone: "auditoria",
+      title: "Auditoria de Preços",
+      subtitle: "Ajustar informações de estoque e produto",
+      nativa: true,
+      ordem: 0,
+      submenu: []
     }
   ]);
 });
