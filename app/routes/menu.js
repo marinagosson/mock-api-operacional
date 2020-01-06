@@ -15,6 +15,7 @@ menu.get("/", async (req, res) => {
         {
           id: 243,
           parentId: 8,
+          icone: "inventario",
           title: "Inventário de Produtos",
           subtitle: "Lorem impsum",
           nativa: true,
