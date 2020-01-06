@@ -17,7 +17,7 @@ app.use(auth);
 app.use(perm);
 
 app.get("/status", async (_, res) => {
-  res.send("ONLINE");
+  res.send("ONLINE 2020");
 });
 
 import * as routes from "./routes";
