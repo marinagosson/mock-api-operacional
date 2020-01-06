@@ -23,15 +23,15 @@ menu.get("/", async (req, res) => {
           submenu: []
         }
       ]
-    },
-    {
-      id: 9,
-      icone: "auditoria",
-      title: "Auditoria de Preços",
-      subtitle: "Ajustar informações de estoque e produto",
-      nativa: true,
-      ordem: 0,
-      submenu: []
     }
+    // {
+    //   id: 9,
+    //   icone: "auditoria",
+    //   title: "Auditoria de Preços",
+    //   subtitle: "Ajustar informações de estoque e produto",
+    //   nativa: true,
+    //   ordem: 0,
+    //   submenu: []
+    // }
   ]);
 });
