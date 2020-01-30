@@ -13,7 +13,7 @@ var inventariosLoja1 = [
     ultima_contagem: 0,
     tipo_contagem: "simples",
     produtos_registrados: false,
-    produtos: ["1082", "1326", "1463", "1452", "1261", "1259", "7896864400321.0", "1176"]
+    produtos: ["1082", "1326", "1463", "1452", "1261", "1259", "7896864400321", "1176"]
   },
   {
     id: 456789,
@@ -24,7 +24,7 @@ var inventariosLoja1 = [
     ultima_contagem: 0,
     tipo_contagem: "simples",
     produtos_registrados: false,
-    produtos: ["1201", "1337", "735201111995.0", "1365", "1472", "1464", "78935495", "929"]
+    produtos: ["1201", "1337", "735201111995", "1365", "1472", "1464", "78935495", "929"]
   }
 ];
 var inventariosLoja2 = [
@@ -37,7 +37,7 @@ var inventariosLoja2 = [
     ultima_contagem: 0,
     tipo_contagem: "simples",
     produtos_registrados: false,
-    produtos: ["1201", "1337", "735201111995.0", "1365", "1472", "1464", "78935495", "929"]
+    produtos: ["1201", "1337", "735201111995", "1365", "1472", "1464", "78935495", "929"]
   },
   {
     id: 321654,
@@ -48,7 +48,7 @@ var inventariosLoja2 = [
     ultima_contagem: 0,
     tipo_contagem: "simples",
     produtos_registrados: false,
-    produtos: ["1082", "1326", "1463", "1452", "1261", "1259", "7896864400321.0", "1176"]
+    produtos: ["1082", "1326", "1463", "1452", "1261", "1259", "7896864400321", "1176"]
   }
 ];
 

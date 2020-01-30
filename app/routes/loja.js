@@ -9,8 +9,7 @@ loja.get("/", async (req, res) => {
       id: 1,
       nome_fantasia: "SUPERMERCADO SIMARA LTDA",
       endereco: "RUA EXP. ANTONIO CAETANO DE SOUZA FILHO",
-      url_image:
-        "https://media-cdn.tripadvisor.com/media/photo-s/15/13/a4/74/shopping-da-bahia.jpg",
+      url_image: "https://operacional.herokuapp.com/images/loja1.jpg",
       configuracaoProduto: {
         qtdDigitoProdutoPeso: 4,
         qtdDecimaisEtiquetaPeso: 0
@@ -20,7 +19,7 @@ loja.get("/", async (req, res) => {
       id: 2,
       nome_fantasia: "SUPERMERCADO SIMARA LTDA",
       endereco: "RUA EXP. ANTONIO CAETANO DE SOUZA FILHO",
-      url_image: null,
+      url_image: "https://operacional.herokuapp.com/images/loja2.jpg",
       configuracaoProduto: {
         qtdDigitoProdutoPeso: 4,
         qtdDecimaisEtiquetaPeso: 0
@@ -30,7 +29,7 @@ loja.get("/", async (req, res) => {
       id: 3,
       nome_fantasia: "SUPERMERCADO SIMARA LTDA",
       endereco: "RUA EXP. ANTONIO CAETANO DE SOUZA FILHO",
-      url_image: null,
+      url_image: "https://operacional.herokuapp.com/images/loja3.jpg",
       configuracaoProduto: {
         qtdDigitoProdutoPeso: 4,
         qtdDecimaisEtiquetaPeso: 0

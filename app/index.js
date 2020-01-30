@@ -23,6 +23,8 @@ app.get("/status", async (_, res) => {
 import * as routes from "./routes";
 Object.keys(routes).map(name => app.use(`/${name}`, routes[name]));
 
+app.use(express.static('assets'));
+
 /* istanbul ignore next */
 export const start = async _ => {
   console.log("we are on [%s] mode", process.env.NODE_ENV);
