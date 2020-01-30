@@ -12,6 +12,7 @@ funcionario.get("/", (req, res) => {
     sobrenome: "MOINHOS",
     email: "moinhos@gmail.com",
     telefone: "05111111111",
+    foto: "https://operacional.herokuapp.com/images/user.png",
     permissoes: [
       "PERM_API_CARGA_PDV_ACESSO",
       "PERM_API_CARGA_PDV_INCLUIR",
