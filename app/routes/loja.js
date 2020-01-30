@@ -19,7 +19,7 @@ loja.get("/", async (req, res) => {
       id: 2,
       nome_fantasia: "SUPERMERCADO SIMARA LTDA",
       endereco: "RUA EXP. ANTONIO CAETANO DE SOUZA FILHO",
-      url_image: "https://operacional.herokuapp.com/images/loja2.jpg",
+      url_image: "https://operacional.herokuapp.com/images/loja2.png",
       configuracaoProduto: {
         qtdDigitoProdutoPeso: 4,
         qtdDecimaisEtiquetaPeso: 0
