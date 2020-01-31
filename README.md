@@ -40,3 +40,7 @@ Pra voltar o batch de migrações:
 ```bash
 npx knex migrate:down
 ```
+
+## upload heroku
+
+git push heroku master

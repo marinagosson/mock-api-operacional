@@ -155,9 +155,10 @@ exports.up = async knex => {
       .notNullable()
       .references("assinante.id")
       .onDelete("cascade");
-    tb.integer("produtoId")
+    tb.integer("produtoCode")
       .notNullable()
-      .references("produto.id")
+      .references("produtoCodigo")
+      .inTable("produto")
       .onDelete("cascade");
     tb.integer("lojaId")
       .notNullable()
@@ -166,9 +167,12 @@ exports.up = async knex => {
     tb.decimal("preco1");
     tb.decimal("preco2");
     tb.decimal("preco3");
-    tb.decimal("precoEmOferta1");
-    tb.decimal("precoEmOferta2");
-    tb.decimal("precoEmOferta3");
+    tb.decimal("preco_oferta1");
+    tb.decimal("preco_oferta2");
+    tb.decimal("preco_oferta3");
+    tb.decimal("preco_venda1");
+    tb.decimal("preco_venda2");
+    tb.decimal("preco_venda3");
   });
   await knex.schema.createTable("config_produto", tb => {
     tb.increments();
