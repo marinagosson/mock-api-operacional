@@ -1,3 +1,5 @@
+
+
 export { assinante } from "./assinante";
 export { contagem } from "./contagem";
 export { dispositivo } from "./dispositivo";
@@ -9,3 +11,6 @@ export { funcionario } from "./funcionario";
 export { unidade } from "./unidade";
 export { auth } from "./auth";
 export { menu } from "./menu";
+export { api } from "./api";
+
+
