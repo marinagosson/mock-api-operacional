@@ -155,10 +155,9 @@ exports.up = async knex => {
       .notNullable()
       .references("assinante.id")
       .onDelete("cascade");
-    tb.integer("produtoCode")
+    tb.integer("produtoCodigo")
       .notNullable()
-      .references("produtoCodigo")
-      .inTable("produto")
+      .references("produto.id")
       .onDelete("cascade");
     tb.integer("lojaId")
       .notNullable()

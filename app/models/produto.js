@@ -9,6 +9,6 @@ export const Produto = bookshelf.Model.extend({
     return this.hasMany(CodigoAuxiliar, 'produtoCodigo', 'produtoCodigo');
   },
   preco(){
-    return this.hasOne(Preco, 'produtoCode');
+    return this.hasOne(Preco, 'produtoCodigo', 'produtoCodigo');
   }
 });
