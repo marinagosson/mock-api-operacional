@@ -41,7 +41,7 @@
         "tags": [
           "Ativação"
         ],
-        "summary": "Ativar o app",
+        "summary": "Ativar o App",
         "requestBody": {
           "required": true,
           "content": {
