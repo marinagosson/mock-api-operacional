@@ -11,6 +11,6 @@ export { funcionario } from "./funcionario";
 export { unidade } from "./unidade";
 export { auth } from "./auth";
 export { menu } from "./menu";
-export { api } from "./api";
+export { doc } from "./doc";
 
 
