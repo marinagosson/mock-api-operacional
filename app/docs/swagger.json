@@ -1,10 +1,14 @@
 {
-  "swagger": "2.0",
+  "openapi": "3.0.0",
   "info": {
     "version": "0.0.1",
     "title": "API - Protótipo (App Operacional)"
   },
-  "host": "operacionalapp.heroku.com",
+  "servers": [
+    {
+      "url": "operacionalapp.heroku.com"
+    }
+  ],
   "tags": [
     {
       "name": "Ativação"
@@ -13,19 +17,22 @@
       "name": "Autenticação"
     },
     {
-      "name": "Funcionario"
+      "name": "Funcionário"
     },
     {
       "name": "Loja"
     },
     {
-      "name": "Inventario"
+      "name": "Inventário"
     },
     {
       "name": "Unidade"
     },
     {
       "name": "Produto"
+    },
+    {
+      "name": "Menu"
     }
   ],
   "paths": {
@@ -35,28 +42,28 @@
           "Ativação"
         ],
         "summary": "Ativar o app",
-        "operationId": "ativacao",
-        "consumes": [
-          "application/json"
-        ],
-        "produces": [
-          "application/json"
-        ],
-        "parameters": [
-          {
-            "in": "body",
-            "name": "body",
-            "required": true,
-            "schema": {
-              "$ref": "#/definitions/AtivacaoModel"
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/AtivacaoModel"
+              }
             }
           }
-        ],
+        },
         "responses": {
           "200": {
-            "description": "Dispositivo ativado com sucesso",
-            "schema": {
-              "$ref": "#/definitions/ApiResponseModel"
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ApiResponseModel"
+                },
+                "example": {
+                  "message": "Dispositivo ativado com sucesso"
+                }
+              }
             }
           }
         }
@@ -68,28 +75,25 @@
           "Autenticação"
         ],
         "summary": "Iniciar uma sessão no App",
-        "operationId": "auth",
-        "consumes": [
-          "application/json"
-        ],
-        "produces": [
-          "application/json"
-        ],
-        "parameters": [
-          {
-            "in": "body",
-            "name": "body",
-            "required": true,
-            "schema": {
-              "$ref": "#/definitions/AuthModel"
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/AuthModel"
+              }
             }
           }
-        ],
+        },
         "responses": {
           "200": {
-            "description": "Login realizado com sucesso",
-            "schema": {
-              "$ref": "#/definitions/AuthModel"
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/AuthModel"
+                }
+              }
             }
           }
         }
@@ -102,28 +106,27 @@
         ],
         "summary": "Atualizar a sessão",
         "operationId": "authRefresh",
-        "consumes": [
-          "application/json",
-          "application/x-www-form-urlencoded"
-        ],
-        "produces": [
-          "application/json",
-          "application/x-www-form-urlencoded"
-        ],
         "parameters": [
           {
-            "name": "Authorization",
             "in": "header",
-            "description": "Enviar o token_refresh recebido no inicio da sessão",
+            "name": "Authorization",
             "required": true,
-            "type": "string"
+            "description": "Enviar o token_refresh",
+            "schema": {
+              "type": "string",
+              "example": "1as6d8a4sd8as4d64as8d4as3d48a6s4dasd86a7sd54as6d8a4s"
+            }
           }
         ],
         "responses": {
           "200": {
-            "description": "Sessão atualizada com sucesso",
-            "schema": {
-              "$ref": "#/definitions/AuthModel"
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/AuthModel"
+                }
+              }
             }
           }
         }
@@ -135,29 +138,30 @@
           "Autenticação"
         ],
         "summary": "Encerrar sessão",
-        "operationId": "authLogout",
-        "consumes": [
-          "application/json",
-          "application/x-www-form-urlencoded"
-        ],
-        "produces": [
-          "application/json",
-          "application/x-www-form-urlencoded"
-        ],
         "parameters": [
           {
-            "name": "Authorization",
             "in": "header",
-            "description": "access_token",
+            "name": "Authorization",
             "required": true,
-            "type": "string"
+            "description": "Enviar o access_token",
+            "schema": {
+              "type": "string",
+              "example": "a9s87da87sd89a7sd7a89s7da89s7d0897as89da0s987"
+            }
           }
         ],
         "responses": {
           "200": {
-            "description": "Sessão encerrada com sucesso",
-            "schema": {
-              "$ref": "#/definitions/AuthModel"
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ApiResponseModel"
+                },
+                "example": {
+                  "message": "Dispositivo ativado com sucesso"
+                }
+              }
             }
           }
         }
@@ -166,22 +170,70 @@
     "/funcionario": {
       "get": {
         "tags": [
-          "Funcionario"
+          "Funcionário"
         ],
+        "summary": "Retorna os dados do usuário logado",
         "parameters": [
           {
-            "name": "Authorization",
             "in": "header",
-            "description": "Enviar o access_token recebido no inicio da sessão",
+            "name": "Authorization",
             "required": true,
-            "type": "string"
+            "description": "Enviar o access_token",
+            "schema": {
+              "type": "string",
+              "example": "a9s87da87sd89a7sd7a89s7da89s7d0897as89da0s987"
+            }
           }
         ],
         "responses": {
           "200": {
-            "description": "",
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/FuncionarioModel"
+                },
+                "examples": {
+                  "funcionario": {
+                    "$ref": "#/components/examples/funcionario"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/inventario": {
+      "get": {
+        "tags": [
+          "Inventário"
+        ],
+        "summary": "Lista todos os inventários abertos das lojas que o usuário possui acesso",
+        "parameters": [
+          {
+            "in": "header",
+            "name": "Authorization",
+            "required": true,
+            "description": "Enviar o access_token",
             "schema": {
-              "$ref": "#/definitions/FuncionarioModel"
+              "type": "string",
+              "example": "a9s87da87sd89a7sd7a89s7da89s7d0897as89da0s987"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/InventarioModel"
+                  }
+                }
+              }
             }
           }
         }
@@ -192,20 +244,75 @@
         "tags": [
           "Loja"
         ],
+        "summary": "Retorna a lista de todas as lojas que o usuário tem acesso",
+        "operationId": "loja",
         "parameters": [
           {
-            "name": "Authorization",
             "in": "header",
-            "description": "Enviar o access_token recebido no inicio da sessão",
+            "name": "Authorization",
             "required": true,
-            "type": "string"
+            "description": "Enviar o access_token",
+            "schema": {
+              "type": "string",
+              "example": "a9s87da87sd89a7sd7a89s7da89s7d0897as89da0s987"
+            }
           }
         ],
         "responses": {
           "200": {
-            "description": "",
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/LojaModel"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/loja/{id}/inventario": {
+      "get": {
+        "tags": [
+          "Loja"
+        ],
+        "summary": "Retorna todos os inventarios filtrando pela loja",
+        "parameters": [
+          {
+            "in": "header",
+            "name": "Authorization",
+            "required": true,
+            "description": "Enviar o access_token",
             "schema": {
-              "$ref": "#/definitions/LojaModel"
+              "type": "string",
+              "example": "a9s87da87sd89a7sd7a89s7da89s7d0897as89da0s987"
+            }
+          },
+          {
+            "in": "path",
+            "name": "id",
+            "schema": {
+              "type": "integer"
+            },
+            "required": true
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/LojaModel"
+                  }
+                }
+              }
             }
           }
         }
@@ -216,22 +323,31 @@
         "tags": [
           "Produto"
         ],
+        "summary": "Retorna todos os produtos cadastrados nas lojas",
+        "operationId": "produto",
         "parameters": [
           {
-            "name": "Authorization",
             "in": "header",
-            "description": "Enviar o access_token recebido no inicio da sessão",
+            "name": "Authorization",
             "required": true,
-            "type": "string"
+            "description": "Enviar o access_token",
+            "schema": {
+              "type": "string",
+              "example": "a9s87da87sd89a7sd7a89s7da89s7d0897as89da0s987"
+            }
           }
         ],
         "responses": {
           "200": {
-            "description": "",
-            "schema": {
-              "type": "array",
-              "items": {
-                "$ref": "#/definitions/ProdutoModel"
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/ProdutoModel"
+                  }
+                }
               }
             }
           }
@@ -243,22 +359,67 @@
         "tags": [
           "Unidade"
         ],
+        "summary": "Retorna a lista de todas as unidades",
+        "operationId": "unidade",
         "parameters": [
           {
-            "name": "Authorization",
             "in": "header",
-            "description": "Enviar o access_token recebido no inicio da sessão",
+            "name": "Authorization",
             "required": true,
-            "type": "string"
+            "description": "Enviar o access_token",
+            "schema": {
+              "type": "string",
+              "example": "a9s87da87sd89a7sd7a89s7da89s7d0897as89da0s987"
+            }
           }
         ],
         "responses": {
           "200": {
-            "description": "",
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/UnidadeModel"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/menu": {
+      "get": {
+        "tags": [
+          "Menu"
+        ],
+        "summary": "Retorna os menus que o usuário possui acesso filtrando com base nas suas permissões",
+        "operationId": "menu",
+        "parameters": [
+          {
+            "in": "header",
+            "name": "Authorization",
+            "required": true,
+            "description": "Enviar o access_token",
             "schema": {
-              "type": "array",
-              "items": {
-                "$ref": "#/definitions/UnidadeModel"
+              "type": "string",
+              "example": "a9s87da87sd89a7sd7a89s7da89s7d0897as89da0s987"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/MenuModel"
+                  }
+                }
               }
             }
           }
@@ -266,352 +427,508 @@
       }
     }
   },
-  "definitions": {
-    "ApiResponseModel": {
-      "type": "object",
-      "properties": {
-        "message": {
-          "type": "string"
-        }
-      }
-    },
-    "LojaModel": {
-      "type": "object",
-      "properties": {
-        "id": {
-          "type": "integer",
-          "example": 1
-        },
-        "nome_fantasia": {
-          "type": "string",
-          "example": "SUPERMERCADO SIMARA LTDA"
-        },
-        "endereco": {
-          "type": "string",
-          "example": "RUA EXP. ANTONIO CAETANO DE SOUZA FILHO 789"
-        },
-        "logo": {
-          "type": "string",
-          "example": "https://operacional.herokuapp.com/images/loja1.jpg"
-        },
-        "configuracao_produto": {
-          "$ref": "#/definitions/ConfiguracaoProdutoModel"
-        }
-      }
-    },
-    "ConfiguracaoProdutoModel": {
-      "type": "object"
-    },
-    "AuthModel": {
-      "type": "object",
-      "required": [
-        "access_token",
-        "token_refresh"
-      ],
-      "properties": {
-        "access_token": {
-          "type": "string",
-          "example": "as0d97f0asdnf9821n98xn3284nc9821n3498n12381238c41h23984"
-        },
-        "token_refresh": {
-          "type": "string",
-          "example": "f7ua0s9d87f9as7d0fnas9d8fasnbkjbj1hvkj23v41b23l4jb3k2j1b4lkjb123lk4jbl123h4bl12k3b4li"
-        }
-      }
-    },
-    "ProdutoModel": {
-      "type": "object",
-      "required": [
-        "created_at",
-        "updated_at",
-        "assinanteId",
-        "produtoId",
-        "produtoCodigo",
-        "descricao",
-        "ativo",
-        "novo",
-        "balanca",
-        "quantidadeEmbalagens",
-        "quantidadeItensEmbalagens",
-        "unidadeVenda",
-        "tipoVenda",
-        "pesoVariavel",
-        "codigoAuxiliares",
-        "preco"
-      ],
-      "properties": {
-        "created_at": {
-          "type": "string",
-          "example": "2020-02-03 13:56:52"
-        },
-        "updated_at": {
-          "type": "string",
-          "example": "2020-02-03 13:56:52"
-        },
-        "assinante": {
-          "type": "integer"
-        },
-        "produtoId": {
-          "type": "integer",
-          "example": 123
-        },
-        "produtoCodigo": {
-          "type": "integer",
-          "example": 786
-        },
-        "descricao": {
-          "type": "string",
-          "example": "CERV EISENBAHN OKTOBER LN 355ML"
-        },
-        "ativo": {
-          "type": "boolean",
-          "example": false
-        },
-        "novo": {
-          "type": "boolean",
-          "example": false
-        },
-        "balanca": {
-          "type": "boolean",
-          "example": false
-        },
-        "quantidadeEmbalagens": {
-          "type": "number",
-          "format": "double",
-          "example": 1
-        },
-        "quantidadeItensEmbalagens": {
-          "type": "number",
-          "format": "double",
-          "example": 1
-        },
-        "unidadeVenda": {
-          "type": "string",
-          "example": "UN"
-        },
-        "tipoVenda": {
-          "type": "string",
-          "example": null
-        },
-        "pesoVariavel": {
-          "type": "string",
-          "example": "N"
-        },
-        "codigo_auxiliar": {
-          "type": "array",
-          "items": {
-            "$ref": "#/definitions/CodigoAuxiliar"
+  "components": {
+    "examples": {
+      "lojas": {
+        "value": {
+          "id": 1,
+          "nome_fantasia": "SUPERMERCADO SIMARA LTDA",
+          "endereco": "RUA EXP. ANTONIO CAETANO DE SOUZA FILHO 789",
+          "logo": "https://operacional.herokuapp.com/images/loja1.jpg",
+          "configuracao_produto": {
+            "qtd_digito_produto_peso": 4,
+            "qtd_decimal_etiqueta_peso": 3
           }
-        },
-        "preco": {
-          "$ref": "#/definitions/PrecoModel"
+        }
+      },
+      "funcionario": {
+        "value": {
+          "nome": "Marina",
+          "sobrenome": "Gosson",
+          "telefone": "85986280030",
+          "username": "marinagosson",
+          "email": "marina.gosson@gmail.com",
+          "administrador": false
+        }
+      },
+      "menu": {
+        "value": {
+          "titulo": "Controle de estoque",
+          "subtitulo": "Contagem de produto",
+          "descricao": null,
+          "ordem": 1,
+          "parent": 1,
+          "permissoes": {
+            "type": "array",
+            "items": {
+              "example": "EDITAR",
+              "enum": [
+                "EDITAR",
+                "EXCLUIR",
+                "ADICIONAR"
+              ]
+            }
+          }
         }
       }
     },
-    "PrecoModel": {
-      "type": "object",
-      "properties": {
-        "id": {
-          "type": "integer",
-          "example": 123456
-        },
-        "created_at": {
-          "type": "string",
-          "example": "2020-02-03T13:56:52.000Z"
-        },
-        "updated_at": {
-          "type": "string",
-          "example": "2020-02-03T13:56:52.000Z"
-        },
-        "assinanteId": {
-          "type": "integer",
-          "example": 12
-        },
-        "loja_id": {
-          "type": "integer",
-          "example": 56
-        },
-        "preco1": {
-          "type": "number",
-          "format": "double"
-        },
-        "preco2": {
-          "type": "number",
-          "format": "double"
-        },
-        "preco3": {
-          "type": "number",
-          "format": "double"
-        },
-        "preco_oferta1": {
-          "type": "number",
-          "format": "double"
-        },
-        "preco_oferta2": {
-          "type": "number",
-          "format": "double"
-        },
-        "preco_oferta3": {
-          "type": "number",
-          "format": "double"
-        },
-        "preco_venda1": {
-          "type": "number",
-          "format": "double"
-        },
-        "preco_venda2": {
-          "type": "number",
-          "format": "double"
-        },
-        "preco_venda3": {
-          "type": "number",
-          "format": "double"
+    "schemas": {
+      "InventarioModel": {
+        "type": "object",
+        "properties": {
+          "storeId": {
+            "type": "integer"
+          },
+          "ultima_contagem": {
+            "type": "integer"
+          },
+          "descricao": {
+            "type": "integer"
+          },
+          "observacao": {
+            "type": "integer"
+          },
+          "tipo_contagem": {
+            "type": "string",
+            "enum": [
+              "SIMPLES"
+            ]
+          },
+          "permite_produto_avulso": {
+            "type": "boolean",
+            "example": true
+          },
+          "produtos": {
+            "type": "array",
+            "items": {
+              "type": "integer",
+              "format": "int64"
+            },
+            "example": [
+              4648,
+              7891681385695,
+              5686
+            ]
+          },
+          "contagem_iniciada": {
+            "type": "boolean"
+          }
         }
-      }
-    },
-    "CodigoAuxiliar": {
-      "type": "object",
-      "required": [
-        "created_at",
-        "updated_at"
-      ],
-      "properties": {
-        "created_at": {
-          "type": "string",
-          "example": "2020-02-03 13:56:52"
-        },
-        "updated_at": {
-          "type": "string",
-          "example": "2020-02-03 13:56:52"
-        },
-        "assinante": {
-          "type": "integer"
-        },
-        "fator": {
-          "type": "integer"
-        },
-        "tipo": {
-          "type": "string",
-          "enum": [
-            "EAN",
-            "LITERAL"
-          ],
-          "example": "EAN"
-        },
-        "produto_codigo": {
-          "type": "integer",
-          "example": 1082
-        },
-        "codigo_ean": {
-          "type": "string",
-          "example": "7898367982069"
-        },
-        "principal": {
-          "type": "boolean",
-          "example": true
+      },
+      "MenuModel": {
+        "type": "object",
+        "properties": {
+          "titulo": {
+            "type": "string",
+            "example": "Controle de estoque"
+          },
+          "subtitulo": {
+            "type": "string",
+            "example": "Contagem de produto"
+          },
+          "descricao": {
+            "type": "string",
+            "example": null
+          },
+          "ordem": {
+            "type": "integer",
+            "example": 1
+          },
+          "parent": {
+            "type": "integer",
+            "example": null
+          },
+          "permissoes": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "example": null,
+              "enum": [
+                "EDITAR",
+                "EXCLUIR",
+                "ADICIONAR"
+              ]
+            }
+          },
+          "submenu": {
+            "type": "array",
+            "items": {
+              "allOf": [
+                {
+                  "type": "object"
+                },
+                {
+                  "$ref": "#/components/schemas/MenuModel"
+                }
+              ],
+              "example": {
+                "titulo": "Inventário de Produtos",
+                "subtitulo": "Lorem impsum",
+                "descricao": null,
+                "ordem": 1,
+                "parent": 1,
+                "permissoes": [
+                  "LISTAR INVENTARIOS",
+                  "NOVA CONTAGEM",
+                  "EXCLUIR CONTAGEM",
+                  "EDITAR CONTAGEM"
+                ],
+                "submenu": null
+              }
+            }
+          }
         }
-      }
-    },
-    "AtivacaoModel": {
-      "type": "object",
-      "required": [
-        "assinatura",
-        "dispositivo"
-      ],
-      "properties": {
-        "assinatura": {
-          "type": "string",
-          "example": "a4s86d4as1d6as4d863a74sda1sd68as1d38as4d8as"
-        },
-        "dispositivo": {
-          "$ref": "#/definitions/DispositivoModel"
+      },
+      "ApiResponseModel": {
+        "type": "object",
+        "properties": {
+          "message": {
+            "type": "string"
+          }
         }
-      }
-    },
-    "DispositivoModel": {
-      "type": "object",
-      "required": [
-        "so_versao",
-        "so",
-        "marca",
-        "fabricante",
-        "modelo",
-        "uuid"
-      ],
-      "properties": {
-        "so": {
-          "type": "string",
-          "example": "android"
-        },
-        "so_versao": {
-          "type": "string",
-          "example": "8.1.0"
-        },
-        "marca": {
-          "type": "string",
-          "example": "motorola"
-        },
-        "fabricante": {
-          "type": "string",
-          "example": "motorola"
-        },
-        "modelo": {
-          "type": "string",
-          "example": "Moto G (5) Plus"
-        },
-        "uuid": {
-          "type": "string",
-          "example": "a566a5c0-46c9-11ea-ae58-03bb3c51b6dc"
+      },
+      "LojaModel": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "example": 1
+          },
+          "nome_fantasia": {
+            "type": "string",
+            "example": "SUPERMERCADO SIMARA LTDA"
+          },
+          "endereco": {
+            "type": "string",
+            "example": "RUA EXP. ANTONIO CAETANO DE SOUZA FILHO 789"
+          },
+          "logo": {
+            "type": "string",
+            "example": "https://operacional.herokuapp.com/images/loja1.jpg"
+          },
+          "configuracao_produto": {
+            "$ref": "#/components/schemas/ConfiguracaoProdutoModel"
+          }
         }
-      }
-    },
-    "UnidadeModel": {
-      "type": "object",
-      "properties": {
-        "id": {
-          "type": "integer",
-          "example": 8
-        },
-        "assinante_id": {
-          "type": "integer",
-          "example": 5
-        },
-        "codigo": {
-          "type": "string",
-          "example": "UN"
-        },
-        "descricao": {
-          "type": "string",
-          "example": "Unidade"
+      },
+      "ConfiguracaoProdutoModel": {
+        "type": "object",
+        "properties": {
+          "qtd_digito_produto_peso": {
+            "type": "integer",
+            "example": 4
+          },
+          "qtd_decimal_etiqueta_peso": {
+            "type": "integer",
+            "example": 3
+          }
         }
-      }
-    },
-    "FuncionarioModel": {
-      "type": "object",
-      "properties": {
-        "nome": {
-          "type": "string",
-          "example": "Marina"
-        },
-        "sobrenome": {
-          "type": "string",
-          "example": "Gosson"
-        },
-        "telefone": {
-          "type": "string",
-          "example": "85 9 86280030"
-        },
-        "username": {
-          "type": "string",
-          "example": "marinagosson"
-        },
-        "email": {
-          "type": "string",
-          "example": "marina.gosson@gmail.com"
-        },
-        "administrador": {
-          "type": "boolean",
-          "example": false
+      },
+      "AuthModel": {
+        "type": "object",
+        "required": [
+          "access_token",
+          "token_refresh"
+        ],
+        "properties": {
+          "access_token": {
+            "type": "string",
+            "example": "as0d97f0asdnf9821n98xn3284nc9821n3498n12381238c41h23984"
+          },
+          "token_refresh": {
+            "type": "string",
+            "example": "f7ua0s9d87f9as7d0fnas9d8fasnbkjbj1hvkj23v41b23l4jb3k2j1b4lkjb123lk4jbl123h4bl12k3b4li"
+          }
+        }
+      },
+      "ProdutoModel": {
+        "type": "object",
+        "required": [
+          "created_at",
+          "updated_at",
+          "assinanteId",
+          "produtoId",
+          "produtoCodigo",
+          "descricao",
+          "ativo",
+          "novo",
+          "balanca",
+          "quantidadeEmbalagens",
+          "quantidadeItensEmbalagens",
+          "unidadeVenda",
+          "tipoVenda",
+          "pesoVariavel",
+          "codigoAuxiliares",
+          "preco"
+        ],
+        "properties": {
+          "created_at": {
+            "type": "string",
+            "example": "2020-02-03 13:56:52"
+          },
+          "updated_at": {
+            "type": "string",
+            "example": "2020-02-03 13:56:52"
+          },
+          "assinante": {
+            "type": "integer"
+          },
+          "produtoId": {
+            "type": "integer",
+            "example": 123
+          },
+          "produtoCodigo": {
+            "type": "integer",
+            "example": 786
+          },
+          "descricao": {
+            "type": "string",
+            "example": "CERV EISENBAHN OKTOBER LN 355ML"
+          },
+          "ativo": {
+            "type": "boolean",
+            "example": false
+          },
+          "novo": {
+            "type": "boolean",
+            "example": false
+          },
+          "balanca": {
+            "type": "boolean",
+            "example": false
+          },
+          "quantidadeEmbalagens": {
+            "type": "number",
+            "format": "double",
+            "example": 1
+          },
+          "quantidadeItensEmbalagens": {
+            "type": "number",
+            "format": "double",
+            "example": 1
+          },
+          "unidadeVenda": {
+            "type": "string",
+            "example": "UN"
+          },
+          "tipoVenda": {
+            "type": "string",
+            "example": null
+          },
+          "pesoVariavel": {
+            "type": "string",
+            "example": "N"
+          },
+          "codigos_axiliares": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/CodigoAuxiliarModel"
+            }
+          },
+          "preco": {
+            "$ref": "#/components/schemas/PrecoModel"
+          }
+        }
+      },
+      "PrecoModel": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "example": 123456
+          },
+          "created_at": {
+            "type": "string",
+            "example": "2020-02-03T13:56:52.000Z"
+          },
+          "updated_at": {
+            "type": "string",
+            "example": "2020-02-03T13:56:52.000Z"
+          },
+          "assinanteId": {
+            "type": "integer",
+            "example": 12
+          },
+          "loja_id": {
+            "type": "integer",
+            "example": 56
+          },
+          "preco1": {
+            "type": "number",
+            "format": "double"
+          },
+          "preco2": {
+            "type": "number",
+            "format": "double"
+          },
+          "preco3": {
+            "type": "number",
+            "format": "double"
+          },
+          "preco_oferta1": {
+            "type": "number",
+            "format": "double"
+          },
+          "preco_oferta2": {
+            "type": "number",
+            "format": "double"
+          },
+          "preco_oferta3": {
+            "type": "number",
+            "format": "double"
+          },
+          "preco_venda1": {
+            "type": "number",
+            "format": "double"
+          },
+          "preco_venda2": {
+            "type": "number",
+            "format": "double"
+          },
+          "preco_venda3": {
+            "type": "number",
+            "format": "double"
+          }
+        }
+      },
+      "CodigoAuxiliarModel": {
+        "type": "object",
+        "required": [
+          "created_at",
+          "updated_at"
+        ],
+        "properties": {
+          "created_at": {
+            "type": "string",
+            "example": "2020-02-03 13:56:52"
+          },
+          "updated_at": {
+            "type": "string",
+            "example": "2020-02-03 13:56:52"
+          },
+          "assinante": {
+            "type": "integer"
+          },
+          "fator": {
+            "type": "integer"
+          },
+          "tipo": {
+            "type": "string",
+            "enum": [
+              "EAN",
+              "LITERAL"
+            ],
+            "example": "EAN"
+          },
+          "produto_codigo": {
+            "type": "integer",
+            "example": 1082
+          },
+          "codigo_ean": {
+            "type": "string",
+            "example": "7898367982069"
+          },
+          "principal": {
+            "type": "boolean",
+            "example": true
+          }
+        }
+      },
+      "AtivacaoModel": {
+        "type": "object",
+        "required": [
+          "assinatura",
+          "dispositivo"
+        ],
+        "properties": {
+          "assinatura": {
+            "type": "string",
+            "example": "a4s86d4as1d6as4d863a74sda1sd68as1d38as4d8as"
+          },
+          "dispositivo": {
+            "$ref": "#/components/schemas/DispositivoModel"
+          }
+        }
+      },
+      "DispositivoModel": {
+        "type": "object",
+        "required": [
+          "so_versao",
+          "so",
+          "marca",
+          "fabricante",
+          "modelo",
+          "uuid"
+        ],
+        "properties": {
+          "so": {
+            "type": "string",
+            "example": "android"
+          },
+          "so_versao": {
+            "type": "string",
+            "example": "8.1.0"
+          },
+          "marca": {
+            "type": "string",
+            "example": "motorola"
+          },
+          "fabricante": {
+            "type": "string",
+            "example": "motorola"
+          },
+          "modelo": {
+            "type": "string",
+            "example": "Moto G (5) Plus"
+          },
+          "uuid": {
+            "type": "string",
+            "example": "a566a5c0-46c9-11ea-ae58-03bb3c51b6dc"
+          }
+        }
+      },
+      "UnidadeModel": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "example": 8
+          },
+          "assinante_id": {
+            "type": "integer",
+            "example": 5
+          },
+          "codigo": {
+            "type": "string",
+            "example": "UN"
+          },
+          "descricao": {
+            "type": "string",
+            "example": "Unidade"
+          }
+        }
+      },
+      "FuncionarioModel": {
+        "type": "object",
+        "properties": {
+          "nome": {
+            "type": "string"
+          },
+          "sobrenome": {
+            "type": "string"
+          },
+          "telefone": {
+            "type": "string"
+          },
+          "username": {
+            "type": "string"
+          },
+          "email": {
+            "type": "string"
+          },
+          "administrador": {
+            "type": "boolean"
+          }
         }
       }
     }
