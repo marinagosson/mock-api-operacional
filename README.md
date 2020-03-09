@@ -11,6 +11,13 @@ Histórico de mudanças [aqui](./CHANGELOG.md)
 
 ## uso básico
 
+Instalção:
+
+```bash
+sudo apt install nodejs
+npm install sqlite3 --save
+```
+
 Para subir o servidor de desenvolvimento
 
 ```bash
