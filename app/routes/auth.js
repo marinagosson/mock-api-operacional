@@ -20,6 +20,6 @@ auth.get("/logout", async (req, res) => {
 	res.send({});
 });
 
-auth.post("/unauthorized", async (req, res) => {
+auth.get("/unauthorized", async (req, res) => {
 	res.send(401, {message: "Token invalido"});
 });
