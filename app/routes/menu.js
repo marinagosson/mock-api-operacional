@@ -2,6 +2,10 @@ import { Router } from "express";
 
 export const menu = new Router();
 
+menu.get("/401", async (req, res) => {
+	res.send(401, {message: "Token invalido"});
+});
+
 menu.get("/", async (req, res) => {
   res.send([
     {
