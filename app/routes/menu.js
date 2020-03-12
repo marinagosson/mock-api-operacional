@@ -27,15 +27,66 @@ menu.get("/", async (req, res) => {
           submenu: []
         }
       ]
+    },
+    {
+      id: 10,
+      icone: "compras",
+      title: "Compras",
+      subtitle: "Lorem impsum",
+      nativa: true,
+      ordem: 0,
+      submenu: [
+        {
+          id: 987,
+          parentId: 10,
+          icone: "auditoriadepreco",
+          title: "Pedido de compra",
+          subtitle: "Lorem impsum",
+          nativa: true,
+          ordem: 0,
+          submenu: []
+        }
+      ]
+    },
+    {
+      id: 11,
+      icone: "vendas",
+      title: "Vendas",
+      subtitle: "Lorem impsum",
+      nativa: true,
+      ordem: 0,
+      submenu: [
+        {
+          id: 321,
+          parentId: 11,
+          icone: "pedidodevenda",
+          title: "Pedido de venda",
+          subtitle: "Lorem impsum",
+          nativa: true,
+          ordem: 0,
+          submenu: []
+        }
+      ]
+    },
+    {
+      id: 12,
+      icone: "auditoria",
+      title: "Auditoria",
+      subtitle: "Ajuste de estoque e produto",
+      nativa: true,
+      ordem: 0,
+      submenu: [
+        {
+          id: 123,
+          parentId: 12,
+          icone: "auditoriadepreco",
+          title: "Auditoria de preço",
+          subtitle: "Lorem impsum",
+          nativa: true,
+          ordem: 0,
+          submenu: []
+        }
+      ]
     }
-    // {
-    //   id: 9,
-    //   icone: "auditoria",
-    //   title: "Auditoria de Preços",
-    //   subtitle: "Ajustar informações de estoque e produto",
-    //   nativa: true,
-    //   ordem: 0,
-    //   submenu: []
-    // }
   ]);
 });
