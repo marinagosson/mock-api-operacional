@@ -3,7 +3,7 @@ import { Router } from "express";
 export const auth = new Router();
 
 auth.post("/", async (req, res) => {
-  if (req.headers.assinante == "joao" || req.headers.assinante == "maria") {
+  if (req.body.username == "joao" || req.body.username == "maria") {
     var data = new Date().toLocaleString();
     const sha1 = require("sha1");
     var access_token = sha1("access_token" + data);
