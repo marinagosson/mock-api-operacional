@@ -12,6 +12,8 @@ import { listPage3 as assinante2ProdutosPage3 } from "./utils/assinante2/listPag
 import { configPrecoAssinante1 } from "./utils/assinante1/tipoPreco";
 import { configPrecoAssinante2 } from "./utils/assinante2/tipoPreco";
 
+import { hasAssinante, resSendAssinanteNotFound } from "./utils/assinante";
+
 export const produto = new Router();
 
 produto.get("/", async (req, res) => {
@@ -27,8 +29,8 @@ produto.get("/", async (req, res) => {
   var list;
   var configPreco;
 
-  if (req.headers.assinante == null) {
-    res.send(403, { message: "Assinante não enviado no header" });
+  if (!hasAssinante(req)) {
+    res.send(403, resSendAssinanteNotFound);
     return;
   }
 
