@@ -41,9 +41,7 @@ produto.get("/", async (req, res) => {
       ...assinante1ProdutosPage3
     ];
     configPreco = configPrecoAssinante1;
-  }
-
-  if (req.headers.assinante == "maria") {
+  } else if (req.headers.assinante == "maria") {
     list = [
       ...assinante2ProdutosPage1,
       ...assinante2ProdutosPage2,
@@ -139,9 +137,7 @@ produto.get("/", async (req, res) => {
           tipoPreco: configPreco[2]
         }
       ];
-    }
-
-    if (req.headers.assinante == "maria") {
+    } else if (req.headers.assinante == "maria") {
       list[i].precos = [
         {
           id: preco.id,
