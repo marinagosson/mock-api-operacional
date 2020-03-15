@@ -13,7 +13,7 @@ funcionario.get("/", (req, res) => {
       sobrenome: "Costa",
       email: "joao@gmail.com",
       telefone: "05111111111",
-      foto: "https://operacional.herokuapp.com/images/user.png",
+      foto: "https://operacional.herokuapp.com/images/joao.png",
       permissoes: ["PERM_API_CARGA_PDV_ACESSO"]
     });
   } else if (req.headers.assinante == "maria") {
@@ -25,7 +25,7 @@ funcionario.get("/", (req, res) => {
       sobrenome: "Pinheiro",
       email: "maria@gmail.com",
       telefone: "05111111111",
-      foto: "https://operacional.herokuapp.com/images/user.png",
+      foto: "https://operacional.herokuapp.com/images/maria.png",
       permissoes: ["PERM_API_CARGA_PDV_ACESSO"]
     });
   } else {

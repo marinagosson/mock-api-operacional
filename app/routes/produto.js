@@ -55,6 +55,7 @@ produto.get("/", async (req, res) => {
           valor: preco.preco1.toPrecision(2),
           oferta: preco.preco_oferta1 > 0 ? true : false,
           venda: preco.preco_venda1 > 0 ? true : false,
+          loja_id: 1,
           produto_id: itemLista.id,
           tipoPreco: configPreco[0]
         },
@@ -64,6 +65,7 @@ produto.get("/", async (req, res) => {
           oferta: preco.preco_oferta2 > 0 ? true : false,
           venda: preco.preco_venda2 > 0 ? true : false,
           produto_id: itemLista.id,
+          loja_id: 1,
           tipoPreco: configPreco[1]
         },
         {
@@ -72,6 +74,61 @@ produto.get("/", async (req, res) => {
           oferta: preco.preco_oferta3 > 0 ? true : false,
           venda: preco.preco_venda3 > 0 ? true : false,
           produto_id: itemLista.id,
+          loja_id: 1,
+          tipoPreco: configPreco[2]
+        },
+        {
+          id: preco.id,
+          valor: preco.preco1.toPrecision(2),
+          oferta: preco.preco_oferta1 > 0 ? true : false,
+          venda: preco.preco_venda1 > 0 ? true : false,
+          loja_id: 2,
+          produto_id: itemLista.id,
+          tipoPreco: configPreco[0]
+        },
+        {
+          id: preco.id * 2,
+          valor: (preco.preco1 * 2).toPrecision(2),
+          oferta: preco.preco_oferta2 > 0 ? true : false,
+          venda: preco.preco_venda2 > 0 ? true : false,
+          produto_id: itemLista.id,
+          loja_id: 2,
+          tipoPreco: configPreco[1]
+        },
+        {
+          id: preco.id * 3,
+          valor: (preco.preco1 * 3).toPrecision(2),
+          oferta: preco.preco_oferta3 > 0 ? true : false,
+          venda: preco.preco_venda3 > 0 ? true : false,
+          produto_id: itemLista.id,
+          loja_id: 2,
+          tipoPreco: configPreco[2]
+        },
+        {
+          id: preco.id,
+          valor: preco.preco1.toPrecision(2),
+          oferta: preco.preco_oferta1 > 0 ? true : false,
+          venda: preco.preco_venda1 > 0 ? true : false,
+          loja_id: 3,
+          produto_id: itemLista.id,
+          tipoPreco: configPreco[0]
+        },
+        {
+          id: preco.id * 2,
+          valor: (preco.preco1 * 2).toPrecision(2),
+          oferta: preco.preco_oferta2 > 0 ? true : false,
+          venda: preco.preco_venda2 > 0 ? true : false,
+          produto_id: itemLista.id,
+          loja_id: 3,
+          tipoPreco: configPreco[1]
+        },
+        {
+          id: preco.id * 3,
+          valor: (preco.preco1 * 3).toPrecision(2),
+          oferta: preco.preco_oferta3 > 0 ? true : false,
+          venda: preco.preco_venda3 > 0 ? true : false,
+          produto_id: itemLista.id,
+          loja_id: 3,
           tipoPreco: configPreco[2]
         }
       ];
