@@ -27,19 +27,23 @@ auth.post("/refresh401", async (req, res) => {
 });
 
 auth.post("/refresh", async (req, res) => {
-  var data = new Date().toLocaleString();
-  const sha1 = require("sha1");
-  var access_token = sha1("access_token" + data);
+  if (req.headers.assinante == "joao" || req.headers.assinante == "maria") {
+    var data = new Date().toLocaleString();
+    const sha1 = require("sha1");
+    var access_token = sha1("access_token" + data);
 
-  const md5 = require("md5");
-  var refresh_token = md5("refresh_token" + data);
+    const md5 = require("md5");
+    var refresh_token = md5("refresh_token" + data);
 
-  var data = {
-    access_token: access_token,
-    token_refresh: refresh_token
-  };
+    var data = {
+      access_token: access_token,
+      token_refresh: refresh_token
+    };
 
-  res.send(data);
+    res.send(data);
+  } else {
+    res.send(403, { message: "Assinante não enviado no header" });
+  }
 });
 
 auth.get("/logout", async (req, res) => {

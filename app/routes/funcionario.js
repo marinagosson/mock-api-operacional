@@ -16,8 +16,7 @@ funcionario.get("/", (req, res) => {
       foto: "https://operacional.herokuapp.com/images/user.png",
       permissoes: ["PERM_API_CARGA_PDV_ACESSO"]
     });
-  }
-  if (req.headers.assinante == "maria") {
+  } else if (req.headers.assinante == "maria") {
     res.send({
       id: 47,
       username: "Maria",
@@ -29,5 +28,7 @@ funcionario.get("/", (req, res) => {
       foto: "https://operacional.herokuapp.com/images/user.png",
       permissoes: ["PERM_API_CARGA_PDV_ACESSO"]
     });
+  } else {
+    res.send(403, { message: "Assinante não enviado no header" });
   }
 });
