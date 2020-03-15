@@ -17,7 +17,8 @@ loja.get("/", async (req, res) => {
       url_image: "https://operacional.herokuapp.com/images/loja1.png",
       configuracaoProduto: {
         qtdDigitoProdutoPeso: 4,
-        qtdDecimaisEtiquetaPeso: 0
+        qtdDecimaisEtiquetaPeso: 0,
+        loja_id: 1
       }
     },
     {
@@ -26,8 +27,9 @@ loja.get("/", async (req, res) => {
       endereco: "Rua Ana Castro 567 – Sabiaguaga",
       url_image: "https://operacional.herokuapp.com/images/loja2.png",
       configuracaoProduto: {
-        qtdDigitoProdutoPeso: 4,
-        qtdDecimaisEtiquetaPeso: 0
+        qtdDigitoProdutoPeso: 3,
+        qtdDecimaisEtiquetaPeso: 0,
+        loja_id: 2
       }
     },
     {
@@ -36,8 +38,9 @@ loja.get("/", async (req, res) => {
       endereco: "Rua Vila do Mauro 123 – Granja Portugal",
       url_image: "https://operacional.herokuapp.com/images/loja3.png",
       configuracaoProduto: {
-        qtdDigitoProdutoPeso: 4,
-        qtdDecimaisEtiquetaPeso: 0
+        qtdDigitoProdutoPeso: 5,
+        qtdDecimaisEtiquetaPeso: 0,
+        loja_id: 3
       }
     }
   ];
@@ -50,7 +53,8 @@ loja.get("/", async (req, res) => {
       url_image: "https://operacional.herokuapp.com/images/loja11.png",
       configuracaoProduto: {
         qtdDigitoProdutoPeso: 4,
-        qtdDecimaisEtiquetaPeso: 0
+        qtdDecimaisEtiquetaPeso: 0,
+        loja_id: 1
       }
     }
   ];
