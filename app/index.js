@@ -17,13 +17,13 @@ app.use(auth);
 app.use(perm);
 
 app.get("/status", async (_, res) => {
-  res.send("ONLINE 2020");
+  res.send("ONLINE");
 });
 
 import * as routes from "./routes";
 Object.keys(routes).map(name => app.use(`/${name}`, routes[name]));
 
-app.use(express.static('assets'));
+app.use(express.static("assets"));
 
 /* istanbul ignore next */
 export const start = async _ => {

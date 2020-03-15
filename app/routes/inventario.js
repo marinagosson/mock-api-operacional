@@ -1,5 +1,6 @@
 import { Router } from "express";
 import { Inventario } from "../models";
+import { hasAssinante, resSendAssinanteNotFound } from "./utils/assinante";
 
 export const inventario = new Router();
 
@@ -13,7 +14,16 @@ var inventariosLoja1 = [
     ultima_contagem: 0,
     tipo_contagem: "simples",
     produtos_registrados: false,
-    produtos: ["1082", "1326", "1463", "1452", "1261", "1259", "7896864400321", "1176"]
+    produtos: [
+      "1082",
+      "1326",
+      "1463",
+      "1452",
+      "1261",
+      "1259",
+      "7896864400321",
+      "1176"
+    ]
   },
   {
     id: 456789,
@@ -24,7 +34,16 @@ var inventariosLoja1 = [
     ultima_contagem: 0,
     tipo_contagem: "simples",
     produtos_registrados: false,
-    produtos: ["1201", "1337", "735201111995", "1365", "1472", "1464", "78935495", "929"]
+    produtos: [
+      "1201",
+      "1337",
+      "735201111995",
+      "1365",
+      "1472",
+      "1464",
+      "78935495",
+      "929"
+    ]
   }
 ];
 var inventariosLoja2 = [
@@ -37,7 +56,16 @@ var inventariosLoja2 = [
     ultima_contagem: 0,
     tipo_contagem: "simples",
     produtos_registrados: false,
-    produtos: ["1201", "1337", "735201111995", "1365", "1472", "1464", "78935495", "929"]
+    produtos: [
+      "1201",
+      "1337",
+      "735201111995",
+      "1365",
+      "1472",
+      "1464",
+      "78935495",
+      "929"
+    ]
   },
   {
     id: 321654,
@@ -48,23 +76,38 @@ var inventariosLoja2 = [
     ultima_contagem: 0,
     tipo_contagem: "simples",
     produtos_registrados: false,
-    produtos: ["1082", "1326", "1463", "1452", "1261", "1259", "7896864400321", "1176"]
+    produtos: [
+      "1082",
+      "1326",
+      "1463",
+      "1452",
+      "1261",
+      "1259",
+      "7896864400321",
+      "1176"
+    ]
   }
 ];
 
 inventario.get("/", (req, res) => {
-  res.send([...inventariosLoja1, ...inventariosLoja2]);
+  if (!hasAssinante(req)) {
+    res.send(403, resSendAssinanteNotFound);
+    return;
+  }
+  if (req.headers.assinante == "joao") {
+    res.send([...inventariosLoja1, ...inventariosLoja2]);
+  } else {
+    res.send([...inventariosLoja1]);
+  }
 });
 
 inventario.get("/:id", (req, res) => {
   var loja1 = 1;
   var loja2 = 2;
 
-  if(req.params.id == loja1)
-    res.send(inventariosLoja1);
+  if (req.params.id == loja1) res.send(inventariosLoja1);
 
-  if(req.params.id == loja2)
-    res.send(inventariosLoja2);
+  if (req.params.id == loja2) res.send(inventariosLoja2);
 
   res.send([]);
 });

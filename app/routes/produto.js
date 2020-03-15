@@ -27,6 +27,11 @@ produto.get("/", async (req, res) => {
   var list;
   var configPreco;
 
+  if (req.headers.assinante == null) {
+    res.send(403, { message: "Assinante não enviado no header" });
+    return;
+  }
+
   if (req.headers.assinante == "joao") {
     list = [
       ...assinante1ProdutosPage1,

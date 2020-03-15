@@ -1,9 +1,14 @@
 import { Router } from "express";
 import { Loja } from "../models";
+import { hasAssinante, resSendAssinanteNotFound } from "./utils/assinante";
 
 export const loja = new Router();
 
 loja.get("/", async (req, res) => {
+  if (!hasAssinante(req)) {
+    res.send(403, resSendAssinanteNotFound);
+    return;
+  }
   const lojasJoao = [
     {
       id: 1,

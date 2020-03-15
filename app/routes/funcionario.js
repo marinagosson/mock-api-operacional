@@ -2,8 +2,13 @@ import { Router } from "express";
 import { Funcionario } from "../models";
 
 export const funcionario = new Router();
+import { hasAssinante, resSendAssinanteNotFound } from "./utils/assinante";
 
 funcionario.get("/", (req, res) => {
+  if (!hasAssinante(req)) {
+    res.send(403, resSendAssinanteNotFound);
+    return;
+  }
   if (req.headers.assinante == "joao") {
     res.send({
       id: 47,
