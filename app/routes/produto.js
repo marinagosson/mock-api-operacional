@@ -61,7 +61,7 @@ produto.get("/", async (req, res) => {
         },
         {
           id: preco.id * 2,
-          valor: (preco.preco1 * 2).toPrecision(2),
+          valor: (preco.preco1 * 2.2).toPrecision(2),
           oferta: preco.preco_oferta2 > 0 ? true : false,
           venda: preco.preco_venda2 > 0 ? true : false,
           produto_id: itemLista.id,
@@ -70,7 +70,7 @@ produto.get("/", async (req, res) => {
         },
         {
           id: preco.id * 3,
-          valor: (preco.preco1 * 3).toPrecision(2),
+          valor: (preco.preco1 * 3.3).toPrecision(2),
           oferta: preco.preco_oferta3 > 0 ? true : false,
           venda: preco.preco_venda3 > 0 ? true : false,
           produto_id: itemLista.id,
@@ -78,8 +78,8 @@ produto.get("/", async (req, res) => {
           tipoPreco: configPreco[2]
         },
         {
-          id: preco.id,
-          valor: preco.preco1.toPrecision(2),
+          id: preco.id * 4,
+          valor: (preco.preco1 * 1.4).toPrecision(2),
           oferta: preco.preco_oferta1 > 0 ? true : false,
           venda: preco.preco_venda1 > 0 ? true : false,
           loja_id: 2,
@@ -87,8 +87,8 @@ produto.get("/", async (req, res) => {
           tipoPreco: configPreco[0]
         },
         {
-          id: preco.id * 2,
-          valor: (preco.preco1 * 2).toPrecision(2),
+          id: preco.id * 5,
+          valor: (preco.preco1 * 2.5).toPrecision(2),
           oferta: preco.preco_oferta2 > 0 ? true : false,
           venda: preco.preco_venda2 > 0 ? true : false,
           produto_id: itemLista.id,
@@ -96,8 +96,8 @@ produto.get("/", async (req, res) => {
           tipoPreco: configPreco[1]
         },
         {
-          id: preco.id * 3,
-          valor: (preco.preco1 * 3).toPrecision(2),
+          id: preco.id * 6,
+          valor: (preco.preco1 * 3.6).toPrecision(2),
           oferta: preco.preco_oferta3 > 0 ? true : false,
           venda: preco.preco_venda3 > 0 ? true : false,
           produto_id: itemLista.id,
@@ -105,8 +105,8 @@ produto.get("/", async (req, res) => {
           tipoPreco: configPreco[2]
         },
         {
-          id: preco.id,
-          valor: preco.preco1.toPrecision(2),
+          id: preco.id * 7,
+          valor: preco.preco1.toPrecision(2.7),
           oferta: preco.preco_oferta1 > 0 ? true : false,
           venda: preco.preco_venda1 > 0 ? true : false,
           loja_id: 3,
@@ -114,8 +114,8 @@ produto.get("/", async (req, res) => {
           tipoPreco: configPreco[0]
         },
         {
-          id: preco.id * 2,
-          valor: (preco.preco1 * 2).toPrecision(2),
+          id: preco.id * 8,
+          valor: (preco.preco1 * 2.8).toPrecision(2),
           oferta: preco.preco_oferta2 > 0 ? true : false,
           venda: preco.preco_venda2 > 0 ? true : false,
           produto_id: itemLista.id,
@@ -123,8 +123,8 @@ produto.get("/", async (req, res) => {
           tipoPreco: configPreco[1]
         },
         {
-          id: preco.id * 3,
-          valor: (preco.preco1 * 3).toPrecision(2),
+          id: preco.id * 9,
+          valor: (preco.preco1 * 3.9).toPrecision(2),
           oferta: preco.preco_oferta3 > 0 ? true : false,
           venda: preco.preco_venda3 > 0 ? true : false,
           produto_id: itemLista.id,
