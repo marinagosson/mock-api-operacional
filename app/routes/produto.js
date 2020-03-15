@@ -152,5 +152,4 @@ produto.get("/", async (req, res) => {
     delete itemLista.preco;
   }
   res.send(list);
-  return;
 });
