@@ -1,7 +1,7 @@
 import { Router } from "express";
-import { Assinante } from "../models";
 import { configPrecoAssinante1 } from "./utils/assinante1/tipoPreco";
 import { configPrecoAssinante2 } from "./utils/assinante2/tipoPreco";
+
 import { hasAssinante, resSendAssinanteNotFound } from "./utils/assinante";
 
 export const assinante = new Router();

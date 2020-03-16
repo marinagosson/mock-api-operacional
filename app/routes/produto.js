@@ -1,8 +1,8 @@
 import { Router } from "express";
 import { Produto } from "../models";
 
-import { produtos as produtosAssinante1} from "./utils/assinante1/produtos";
-import { produtos as produtosAssinante2} from "./utils/assinante2/produtos";
+import { produtosAssinante1 } from "./utils/assinante"
+import { produtosAssinante2 } from "./utils/assinante"
 
 import { hasAssinante, resSendAssinanteNotFound } from "./utils/assinante";
 
@@ -30,12 +30,3 @@ produto.get("/", async (req, res) => {
   }
 
 });
-
-// function createFile(list) {
-//   var fs = require('fs');
-//   var exp = JSON.stringify(list);
-//   fs.writeFile('produtos.js', 'export const produtos = ' + exp + ';', function (err) {
-//     if (err) throw err;
-//     console.log('File is created successfully.');
-//   });
-// }
