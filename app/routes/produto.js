@@ -18,15 +18,24 @@ produto.get("/", async (req, res) => {
   //   pageSize: 600
   // });
 
-  if (!hasAssinante(req)) {
-    res.send(403, resSendAssinanteNotFound);
-    return;
+  if (req.query.assinante) {
+    if (req.query.assinante == 'joao') {
+      res.send(produtosAssinante1);
+    } else if (req.query.assinante == 'maria') {
+      res.send(produtosAssinante2);
+    }
+  } else {
+    if (!hasAssinante(req)) {
+      res.send(403, resSendAssinanteNotFound);
+      return;
+    }
+    if (req.headers.assinante == "joao") {
+      res.send(produtosAssinante1);
+    } else if (req.headers.assinante == "maria") {
+      res.send(produtosAssinante2);
+    }
   }
 
-  if (req.headers.assinante == "joao") {
-    res.send(produtosAssinante1);
-  } else if (req.headers.assinante == "maria") {
-    res.send(produtosAssinante2);
-  }
+  res.send('nao deu bom');
 
 });
