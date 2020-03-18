@@ -58,8 +58,8 @@ produto.get("/", async (req, res) => {
     for (var i = 0; i < list.length; i++) {
       let itemLista = list[i];
       var preco = itemLista.preco;
-      list[i].precos = [
-        // venda - preco 1
+      var precos = [
+        // venda - preco 1 loja 1
         {
           id: idProd++,
           valor: formatValue(preco.preco1, 2.2),
@@ -69,7 +69,7 @@ produto.get("/", async (req, res) => {
           produto_id: itemLista.id,
           tipoPreco: configPreco[0]
         },
-        // oferta - preco 1
+        // oferta - preco 1 loja 1
         {
           id: idProd++,
           valor: formatValue(preco.preco1, 1.5),
@@ -79,7 +79,7 @@ produto.get("/", async (req, res) => {
           loja_id: 1,
           tipoPreco: configPreco[0]
         },
-        // venda - preco 2
+        // venda - preco 2 loja 1
         {
           id: idProd++,
           valor: formatValue(preco.preco1, 3.3),
@@ -89,7 +89,67 @@ produto.get("/", async (req, res) => {
           loja_id: 1,
           tipoPreco: configPreco[2]
         },
-        // oferta - preco 2
+        // oferta - preco 2 loja 1
+        {
+          id: idProd++,
+          valor: formatValue(preco.preco1, 1.4),
+          oferta: true,
+          venda: false,
+          loja_id: 1,
+          produto_id: itemLista.id,
+          tipoPreco: configPreco[1]
+        },
+        // venda - preco 3 loja 1
+        {
+          id: idProd++,
+          valor: formatValue(preco.preco1, 3.6),
+          oferta: false,
+          venda: true,
+          produto_id: itemLista.id,
+          loja_id: 1,
+          tipoPreco: configPreco[2]
+        },
+        // oferta - preco 3 loja 1
+        {
+          id: idProd++,
+          valor: formatValue(preco.preco1, 2.5),
+          oferta: true,
+          venda: false,
+          produto_id: itemLista.id,
+          loja_id: 1,
+          tipoPreco: configPreco[2]
+        },
+        // venda - preco 1 loja 2
+        {
+          id: idProd++,
+          valor: formatValue(preco.preco1, 2.2),
+          oferta: false,
+          venda: true,
+          loja_id: 2,
+          produto_id: itemLista.id,
+          tipoPreco: configPreco[0]
+        },
+        // oferta - preco 1 loja 2
+        {
+          id: idProd++,
+          valor: formatValue(preco.preco1, 1.5),
+          oferta: true,
+          venda: false,
+          produto_id: itemLista.id,
+          loja_id: 2,
+          tipoPreco: configPreco[0]
+        },
+        // venda - preco 2 loja 2
+        {
+          id: idProd++,
+          valor: formatValue(preco.preco1, 3.3),
+          oferta: false,
+          venda: true,
+          produto_id: itemLista.id,
+          loja_id: 2,
+          tipoPreco: configPreco[2]
+        },
+        // oferta - preco 2 loja 2
         {
           id: idProd++,
           valor: formatValue(preco.preco1, 1.4),
@@ -99,7 +159,7 @@ produto.get("/", async (req, res) => {
           produto_id: itemLista.id,
           tipoPreco: configPreco[1]
         },
-        // venda - preco 3
+        // venda - preco 3 loja 2
         {
           id: idProd++,
           valor: formatValue(preco.preco1, 3.6),
@@ -109,7 +169,7 @@ produto.get("/", async (req, res) => {
           loja_id: 2,
           tipoPreco: configPreco[2]
         },
-        // oferta - preco 3
+        // oferta - preco 3 loja 2
         {
           id: idProd++,
           valor: formatValue(preco.preco1, 2.5),
@@ -118,10 +178,73 @@ produto.get("/", async (req, res) => {
           produto_id: itemLista.id,
           loja_id: 2,
           tipoPreco: configPreco[2]
+        },
+        // venda - preco 1 loja 3
+        {
+          id: idProd++,
+          valor: formatValue(preco.preco1, 2.2),
+          oferta: false,
+          venda: true,
+          loja_id: 3,
+          produto_id: itemLista.id,
+          tipoPreco: configPreco[0]
+        },
+        // oferta - preco 1 loja 3
+        {
+          id: idProd++,
+          valor: formatValue(preco.preco1, 1.5),
+          oferta: true,
+          venda: false,
+          produto_id: itemLista.id,
+          loja_id: 3,
+          tipoPreco: configPreco[0]
+        },
+        // venda - preco 2 loja 3
+        {
+          id: idProd++,
+          valor: formatValue(preco.preco1, 3.3),
+          oferta: false,
+          venda: true,
+          produto_id: itemLista.id,
+          loja_id: 3,
+          tipoPreco: configPreco[2]
+        },
+        // oferta - preco 2 loja 3
+        {
+          id: idProd++,
+          valor: formatValue(preco.preco1, 1.4),
+          oferta: true,
+          venda: false,
+          loja_id: 3,
+          produto_id: itemLista.id,
+          tipoPreco: configPreco[1]
+        },
+        // venda - preco 3 loja 3
+        {
+          id: idProd++,
+          valor: formatValue(preco.preco1, 3.6),
+          oferta: false,
+          venda: true,
+          produto_id: itemLista.id,
+          loja_id: 3,
+          tipoPreco: configPreco[2]
+        },
+        // oferta - preco 3 loja 3
+        {
+          id: idProd++,
+          valor: formatValue(preco.preco1, 2.5),
+          oferta: true,
+          venda: false,
+          produto_id: itemLista.id,
+          loja_id: 3,
+          tipoPreco: configPreco[2]
         }
       ];
 
+      itemLista.preco_praticado = precos[0].valor;
+      itemLista.precos = precos;
       delete itemLista.preco;
+      list[i] = itemLista;
 
     }
 
@@ -131,7 +254,7 @@ produto.get("/", async (req, res) => {
       let itemLista = list[i];
       const preco = itemLista.preco;
 
-      list[i].precos = [
+      var precos = [
         // venda - preco 1
         {
           id: idProd++,
@@ -153,7 +276,10 @@ produto.get("/", async (req, res) => {
           tipoPreco: configPreco[0]
         }
       ];
+      itemLista.preco_praticado = precos[0].valor;
+      itemLista.precos = precos;
       delete itemLista.preco;
+      list[i] = itemLista;
     }
   }
 

@@ -1,5 +1,5 @@
 import { Router } from "express";
-import { Produto } from "../models";
+// import { Produto } from "../models";
 
 import { produtosAssinante1 } from "./utils/assinante"
 import { produtosAssinante2 } from "./utils/assinante"
