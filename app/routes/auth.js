@@ -1,9 +1,12 @@
 import { Router } from "express";
 
+import { assinante1 } from "./utils/assinante";
+import { assinante2 } from "./utils/assinante"
+
 export const auth = new Router();
 
 auth.post("/", async (req, res) => {
-  if (req.body.username == "joao" || req.body.username == "maria") {
+  if (req.body.username == assinante1 || req.body.username == assinante2) {
     var data = new Date().toLocaleString();
     const sha1 = require("sha1");
     var access_token = sha1("access_token" + data);
@@ -27,7 +30,7 @@ auth.post("/refresh401", async (req, res) => {
 });
 
 auth.post("/refresh", async (req, res) => {
-  if (req.headers.assinante == "joao" || req.headers.assinante == "maria") {
+  if (req.headers.assinante == assinante1 || req.headers.assinante == assinante2) {
     var data = new Date().toLocaleString();
     const sha1 = require("sha1");
     var access_token = sha1("access_token" + data);

@@ -2,6 +2,9 @@ import { Router } from "express";
 import { Loja } from "../models";
 import { hasAssinante, resSendAssinanteNotFound } from "./utils/assinante";
 
+import { assinante1 } from "./utils/assinante";
+import { assinante2 } from "./utils/assinante"
+
 export const loja = new Router();
 
 loja.get("/", async (req, res) => {
@@ -59,6 +62,6 @@ loja.get("/", async (req, res) => {
     }
   ];
 
-  if (req.headers.assinante == "joao") res.send(lojasJoao);
-  if (req.headers.assinante == "maria") res.send(lojasMaria);
+  if (req.headers.assinante == assinante1) res.send(lojasJoao);
+  if (req.headers.assinante == assinante2) res.send(lojasMaria);
 });

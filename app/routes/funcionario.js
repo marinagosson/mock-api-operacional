@@ -1,7 +1,11 @@
 import { Router } from "express";
-import { Funcionario } from "../models";
+// import { Funcionario } from "../models";
+
+import { assinante1 } from "./utils/assinante";
+import { assinante2 } from "./utils/assinante"
 
 export const funcionario = new Router();
+
 import { hasAssinante, resSendAssinanteNotFound } from "./utils/assinante";
 
 funcionario.get("/", (req, res) => {
@@ -9,28 +13,28 @@ funcionario.get("/", (req, res) => {
     res.send(403, resSendAssinanteNotFound);
     return;
   }
-  if (req.headers.assinante == "joao") {
+  if (req.headers.assinante == assinante1) {
     res.send({
       id: 47,
-      username: "João",
+      username: assinante1,
       administrador: false,
-      nome: "João",
-      sobrenome: "Costa",
-      email: "joao@gmail.com",
+      nome: "Marina",
+      sobrenome: "Gosson",
+      email: "marina.gosson@gmail.com",
       telefone: "05111111111",
-      foto: "https://operacional.herokuapp.com/images/joao.png",
+      foto: "https://operacional.herokuapp.com/images/marina.png",
       permissoes: ["PERM_API_CARGA_PDV_ACESSO"]
     });
-  } else if (req.headers.assinante == "maria") {
+  } else if (req.headers.assinante == assinante2) {
     res.send({
       id: 47,
-      username: "Maria",
+      username: assinante1,
       administrador: false,
-      nome: "Maria",
-      sobrenome: "Pinheiro",
-      email: "maria@gmail.com",
+      nome: "Natalia",
+      sobrenome: "Macambira",
+      email: "natalia.dev.cm@gmail.com",
       telefone: "05111111111",
-      foto: "https://operacional.herokuapp.com/images/maria.png",
+      foto: "https://operacional.herokuapp.com/images/natalia.png",
       permissoes: ["PERM_API_CARGA_PDV_ACESSO"]
     });
   } else {

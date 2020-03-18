@@ -11,6 +11,8 @@ import { listPage3 as assinante2ProdutosPage3 } from "./utils/assinante2/listPag
 import { configPrecoAssinante1 } from "./utils/assinante1/tipoPreco";
 import { configPrecoAssinante2 } from "./utils/assinante2/tipoPreco";
 
+import { assinante1 } from "./utils/assinante";
+import { assinante2 } from "./utils/assinante"
 
 import { hasAssinante, resSendAssinanteNotFound } from "./utils/assinante";
 
@@ -34,14 +36,14 @@ produto.get("/", async (req, res) => {
     return;
   }
 
-  if (req.headers.assinante == "joao") {
+  if (req.headers.assinante == assinante1) {
     list = [
       ...assinante1ProdutosPage1,
       ...assinante1ProdutosPage2,
       ...assinante1ProdutosPage3
     ];
     configPreco = configPrecoAssinante1;
-  } else if (req.headers.assinante == "maria") {
+  } else if (req.headers.assinante == assinante2) {
     list = [
       ...assinante2ProdutosPage1,
       ...assinante2ProdutosPage2,
@@ -53,7 +55,7 @@ produto.get("/", async (req, res) => {
   console.log(list.length.toString());
 
 
-  if (req.headers.assinante == "joao") {
+  if (req.headers.assinante == assinante1) {
     var idProd = 1;
     for (var i = 0; i < list.length; i++) {
       let itemLista = list[i];
@@ -248,7 +250,7 @@ produto.get("/", async (req, res) => {
 
     }
 
-  } else if (req.headers.assinante == "maria") {
+  } else if (req.headers.assinante == assinante2) {
     var idProd = 1;
     for (var i = 0; i < list.length; i++) {
       let itemLista = list[i];

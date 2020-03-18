@@ -2,6 +2,9 @@ import { Router } from "express";
 import { Inventario } from "../models";
 import { hasAssinante, resSendAssinanteNotFound } from "./utils/assinante";
 
+import { assinante1 } from "./utils/assinante";
+import { assinante2 } from "./utils/assinante"
+
 export const inventario = new Router();
 
 var inventariosLoja1 = [
@@ -94,7 +97,7 @@ inventario.get("/", (req, res) => {
     res.send(403, resSendAssinanteNotFound);
     return;
   }
-  if (req.headers.assinante == "joao") {
+  if (req.headers.assinante == assinante1) {
     res.send([...inventariosLoja1, ...inventariosLoja2]);
   } else {
     res.send([...inventariosLoja1]);
