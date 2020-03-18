@@ -21,7 +21,7 @@ auth.post("/", async (req, res) => {
 
     res.send(data);
   } else {
-    res.send(404, { message: "Usuários permitidos: joao ou maria" });
+    res.send(404, { message: "Usuários permitidos: " + assinante1 + " ou " + assinante2 });
   }
 });
 
