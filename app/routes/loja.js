@@ -12,7 +12,7 @@ loja.get("/", async (req, res) => {
     res.send(403, resSendAssinanteNotFound);
     return;
   }
-  const lojasJoao = [
+  const lojasAssinante1 = [
     {
       id: 1,
       nome_fantasia: "Spike Supermercado",
@@ -48,7 +48,7 @@ loja.get("/", async (req, res) => {
     }
   ];
 
-  const lojasMaria = [
+  const lojasAssinante2 = [
     {
       id: 1,
       nome_fantasia: "Deluxe Supermercado",
@@ -62,6 +62,6 @@ loja.get("/", async (req, res) => {
     }
   ];
 
-  if (req.headers.assinante == assinante1) res.send(lojasJoao);
-  if (req.headers.assinante == assinante2) res.send(lojasMaria);
+  if (req.headers.assinante == assinante1) res.send(lojasAssinante1);
+  if (req.headers.assinante == assinante2) res.send(lojasAssinante2);
 });

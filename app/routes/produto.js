@@ -39,6 +39,4 @@ produto.get("/", async (req, res) => {
     }
   }
 
-  res.send('nao deu bom');
-
 });
