@@ -48,6 +48,28 @@ Pra voltar o batch de migrações:
 npx knex migrate:down
 ```
 
-## upload heroku
+## Heroku
 
+Para inicializar o heroku
+
+```
+heroku login
+```
+
+Para adicionar a url do git do heroku localmente
+
+```
+git remote add heroku <url_aqui>
+```
+
+Para atualizar a máquina do heroku
+
+```
 git push heroku master
+```
+
+Para fazer um restart na máquina
+
+```
+heroku dyno:restart ––app operacional
+```
