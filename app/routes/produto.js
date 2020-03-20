@@ -18,7 +18,8 @@ export const produto = new Router();
 produto.get("/", async (req, res) => {
 
   var produtosAssinante1 = [...list1Assinante1, ...list2Assinante1, ...list3Assinante1];
-  var produtosAssinante2 = [...list1Assinante2, ...list2Assinante2, ...list3Assinante2];
+  // var produtosAssinante2 = [...list1Assinante2, ...list2Assinante2, ...list3Assinante2];
+  var produtosAssinante2 = [...list1Assinante2,];
 
   // const { page = 1 } = req.query;
   // const list = await Produto.query(qb =>
@@ -38,12 +39,14 @@ produto.get("/", async (req, res) => {
   } else {
     if (!hasAssinante(req)) {
       res.send(403, resSendAssinanteNotFound);
-      return;
-    }
-    if (req.headers.assinante == assinante1) {
-      res.send(produtosAssinante1);
-    } else if (req.headers.assinante == assinante2) {
-      res.send(produtosAssinante2);
+    } else {
+      if (req.headers.assinante == assinante1) {
+        res.send(produtosAssinante1);
+      } else if (req.headers.assinante == assinante2) {
+        res.send(produtosAssinante2);
+      } else {
+        res.send({ message: "assinante nao informado" });
+      }
     }
   }
 
