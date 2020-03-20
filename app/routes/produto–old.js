@@ -52,13 +52,12 @@
 //     configPreco = configPrecoAssinante2;
 //   }
 
-//   console.log(list.length.toString());
-
+//   var listAux = list;
 
 //   if (req.headers.assinante == assinante1) {
 //     var idProd = 1;
-//     for (var i = 0; i < list.length; i++) {
-//       let itemLista = list[i];
+//     for (var i = 0; i < 100; i++) {
+//       let itemLista = listAux[i];
 //       var preco = itemLista.preco;
 //       var precos = [
 //         // venda - preco 1 loja 1
@@ -245,8 +244,8 @@
 
 //       itemLista.preco_praticado = precos[0].valor;
 //       itemLista.precos = precos;
-//       delete itemLista.preco;
-//       list[i] = itemLista;
+//       delete listAux[i].preco;
+//       listAux[i] = itemLista;
 
 //     }
 
@@ -296,19 +295,19 @@
 
 // function createFile(list) {
 //   var fs = require('fs');
-//   var newList1 = JSON.stringify(list.slice(0, 562)); // 0 - 562
-//   var newList2 = JSON.stringify(list.slice(562, 1124)); // 562 - 1124
-//   var newList3 = JSON.stringify(list.slice(1124, 1686)); // 1124 - 1686
+//   var newList1 = JSON.stringify(list.slice(0, 100)); // 0 - 562
+//   // var newList2 = JSON.stringify(list.slice(562, 1124)); // 562 - 1124
+//   // var newList3 = JSON.stringify(list.slice(1124, 1686)); // 1124 - 1686
 //   fs.writeFile('newList1.js', 'export const produtos = ' + newList1 + ";", function (err) {
 //     if (err) throw err;
 //     console.log('File is created successfully.');
 //   });
-//   fs.writeFile('newList2.js', 'export const produtos = ' + newList2 + ";", function (err) {
-//     if (err) throw err;
-//     console.log('File is created successfully.');
-//   });
-//   fs.writeFile('newList3.js', 'export const produtos = ' + newList3 + ";", function (err) {
-//     if (err) throw err;
-//     console.log('File is created successfully.');
-//   });
+//   // fs.writeFile('newList2.js', 'export const produtos = ' + newList2 + ";", function (err) {
+//   //   if (err) throw err;
+//   //   console.log('File is created successfully.');
+//   // });
+//   // fs.writeFile('newList3.js', 'export const produtos = ' + newList3 + ";", function (err) {
+//   //   if (err) throw err;
+//   //   console.log('File is created successfully.');
+//   // });
 // }
