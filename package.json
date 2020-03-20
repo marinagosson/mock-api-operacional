@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "cross-env NODE_ENV=development nodemon index.js",
     "test": "cross-env NODE_ENV=test nyc mocha -r esm --timeout 10000 --exit spec",
-    "start": "node index.js"
+    "start": "node --inspect index.js"
   },
   "repository": {
     "type": "git",
