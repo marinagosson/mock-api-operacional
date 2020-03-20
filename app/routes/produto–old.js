@@ -1,314 +1,314 @@
-import { Router } from "express";
+// import { Router } from "express";
 
-import { listPage1 as assinante1ProdutosPage1 } from "./utils/assinante1/listPage1";
-import { listPage2 as assinante1ProdutosPage2 } from "./utils/assinante1/listPage2";
-import { listPage3 as assinante1ProdutosPage3 } from "./utils/assinante1/listPage3";
+// import { listPage1 as assinante1ProdutosPage1 } from "./utils/assinante1/listPage1";
+// import { listPage2 as assinante1ProdutosPage2 } from "./utils/assinante1/listPage2";
+// import { listPage3 as assinante1ProdutosPage3 } from "./utils/assinante1/listPage3";
 
-import { listPage1 as assinante2ProdutosPage1 } from "./utils/assinante2/listPage1";
-import { listPage2 as assinante2ProdutosPage2 } from "./utils/assinante2/listPage2";
-import { listPage3 as assinante2ProdutosPage3 } from "./utils/assinante2/listPage3";
+// import { listPage1 as assinante2ProdutosPage1 } from "./utils/assinante2/listPage1";
+// import { listPage2 as assinante2ProdutosPage2 } from "./utils/assinante2/listPage2";
+// import { listPage3 as assinante2ProdutosPage3 } from "./utils/assinante2/listPage3";
 
-import { configPrecoAssinante1 } from "./utils/assinante1/tipoPreco";
-import { configPrecoAssinante2 } from "./utils/assinante2/tipoPreco";
+// import { configPrecoAssinante1 } from "./utils/assinante1/tipoPreco";
+// import { configPrecoAssinante2 } from "./utils/assinante2/tipoPreco";
 
-import { assinante1 } from "./utils/assinante";
-import { assinante2 } from "./utils/assinante"
+// import { assinante1 } from "./utils/assinante";
+// import { assinante2 } from "./utils/assinante"
 
-import { hasAssinante, resSendAssinanteNotFound } from "./utils/assinante";
+// import { hasAssinante, resSendAssinanteNotFound } from "./utils/assinante";
 
-export const produto = new Router();
+// export const produto = new Router();
 
-produto.get("/", async (req, res) => {
-  // const { page = 1 } = req.query;
-  // const list = await Produto.query(qb =>
-  //   qb.orderBy("descricao", "asc")
-  // ).fetchPage({
-  //   withRelated: ["codigosAuxiliares", "preco"],
-  //   page,
-  //   pageSize: 600
-  // });
+// produto.get("/", async (req, res) => {
+//   // const { page = 1 } = req.query;
+//   // const list = await Produto.query(qb =>
+//   //   qb.orderBy("descricao", "asc")
+//   // ).fetchPage({
+//   //   withRelated: ["codigosAuxiliares", "preco"],
+//   //   page,
+//   //   pageSize: 600
+//   // });
 
-  var list = [];
-  var configPreco;
+//   var list = [];
+//   var configPreco;
 
-  if (!hasAssinante(req)) {
-    res.send(403, resSendAssinanteNotFound);
-    return;
-  }
+//   if (!hasAssinante(req)) {
+//     res.send(403, resSendAssinanteNotFound);
+//     return;
+//   }
 
-  if (req.headers.assinante == assinante1) {
-    list = [
-      ...assinante1ProdutosPage1,
-      ...assinante1ProdutosPage2,
-      ...assinante1ProdutosPage3
-    ];
-    configPreco = configPrecoAssinante1;
-  } else if (req.headers.assinante == assinante2) {
-    list = [
-      ...assinante2ProdutosPage1,
-      ...assinante2ProdutosPage2,
-      ...assinante2ProdutosPage3
-    ];
-    configPreco = configPrecoAssinante2;
-  }
+//   if (req.headers.assinante == assinante1) {
+//     list = [
+//       ...assinante1ProdutosPage1,
+//       ...assinante1ProdutosPage2,
+//       ...assinante1ProdutosPage3
+//     ];
+//     configPreco = configPrecoAssinante1;
+//   } else if (req.headers.assinante == assinante2) {
+//     list = [
+//       ...assinante2ProdutosPage1,
+//       ...assinante2ProdutosPage2,
+//       ...assinante2ProdutosPage3
+//     ];
+//     configPreco = configPrecoAssinante2;
+//   }
 
-  console.log(list.length.toString());
+//   console.log(list.length.toString());
 
 
-  if (req.headers.assinante == assinante1) {
-    var idProd = 1;
-    for (var i = 0; i < list.length; i++) {
-      let itemLista = list[i];
-      var preco = itemLista.preco;
-      var precos = [
-        // venda - preco 1 loja 1
-        {
-          id: idProd++,
-          valor: formatValue(preco.preco1, 2.2),
-          oferta: false,
-          venda: true,
-          loja_id: 1,
-          produto_id: itemLista.id,
-          tipoPreco: configPreco[0]
-        },
-        // oferta - preco 1 loja 1
-        {
-          id: idProd++,
-          valor: formatValue(preco.preco1, 1.5),
-          oferta: true,
-          venda: false,
-          produto_id: itemLista.id,
-          loja_id: 1,
-          tipoPreco: configPreco[0]
-        },
-        // venda - preco 2 loja 1
-        {
-          id: idProd++,
-          valor: formatValue(preco.preco1, 3.3),
-          oferta: false,
-          venda: true,
-          produto_id: itemLista.id,
-          loja_id: 1,
-          tipoPreco: configPreco[2]
-        },
-        // oferta - preco 2 loja 1
-        {
-          id: idProd++,
-          valor: formatValue(preco.preco1, 1.4),
-          oferta: true,
-          venda: false,
-          loja_id: 1,
-          produto_id: itemLista.id,
-          tipoPreco: configPreco[1]
-        },
-        // venda - preco 3 loja 1
-        {
-          id: idProd++,
-          valor: formatValue(preco.preco1, 3.6),
-          oferta: false,
-          venda: true,
-          produto_id: itemLista.id,
-          loja_id: 1,
-          tipoPreco: configPreco[2]
-        },
-        // oferta - preco 3 loja 1
-        {
-          id: idProd++,
-          valor: formatValue(preco.preco1, 2.5),
-          oferta: true,
-          venda: false,
-          produto_id: itemLista.id,
-          loja_id: 1,
-          tipoPreco: configPreco[2]
-        },
-        // venda - preco 1 loja 2
-        {
-          id: idProd++,
-          valor: formatValue(preco.preco1, 2.2),
-          oferta: false,
-          venda: true,
-          loja_id: 2,
-          produto_id: itemLista.id,
-          tipoPreco: configPreco[0]
-        },
-        // oferta - preco 1 loja 2
-        {
-          id: idProd++,
-          valor: formatValue(preco.preco1, 1.5),
-          oferta: true,
-          venda: false,
-          produto_id: itemLista.id,
-          loja_id: 2,
-          tipoPreco: configPreco[0]
-        },
-        // venda - preco 2 loja 2
-        {
-          id: idProd++,
-          valor: formatValue(preco.preco1, 3.3),
-          oferta: false,
-          venda: true,
-          produto_id: itemLista.id,
-          loja_id: 2,
-          tipoPreco: configPreco[2]
-        },
-        // oferta - preco 2 loja 2
-        {
-          id: idProd++,
-          valor: formatValue(preco.preco1, 1.4),
-          oferta: true,
-          venda: false,
-          loja_id: 2,
-          produto_id: itemLista.id,
-          tipoPreco: configPreco[1]
-        },
-        // venda - preco 3 loja 2
-        {
-          id: idProd++,
-          valor: formatValue(preco.preco1, 3.6),
-          oferta: false,
-          venda: true,
-          produto_id: itemLista.id,
-          loja_id: 2,
-          tipoPreco: configPreco[2]
-        },
-        // oferta - preco 3 loja 2
-        {
-          id: idProd++,
-          valor: formatValue(preco.preco1, 2.5),
-          oferta: true,
-          venda: false,
-          produto_id: itemLista.id,
-          loja_id: 2,
-          tipoPreco: configPreco[2]
-        },
-        // venda - preco 1 loja 3
-        {
-          id: idProd++,
-          valor: formatValue(preco.preco1, 2.2),
-          oferta: false,
-          venda: true,
-          loja_id: 3,
-          produto_id: itemLista.id,
-          tipoPreco: configPreco[0]
-        },
-        // oferta - preco 1 loja 3
-        {
-          id: idProd++,
-          valor: formatValue(preco.preco1, 1.5),
-          oferta: true,
-          venda: false,
-          produto_id: itemLista.id,
-          loja_id: 3,
-          tipoPreco: configPreco[0]
-        },
-        // venda - preco 2 loja 3
-        {
-          id: idProd++,
-          valor: formatValue(preco.preco1, 3.3),
-          oferta: false,
-          venda: true,
-          produto_id: itemLista.id,
-          loja_id: 3,
-          tipoPreco: configPreco[2]
-        },
-        // oferta - preco 2 loja 3
-        {
-          id: idProd++,
-          valor: formatValue(preco.preco1, 1.4),
-          oferta: true,
-          venda: false,
-          loja_id: 3,
-          produto_id: itemLista.id,
-          tipoPreco: configPreco[1]
-        },
-        // venda - preco 3 loja 3
-        {
-          id: idProd++,
-          valor: formatValue(preco.preco1, 3.6),
-          oferta: false,
-          venda: true,
-          produto_id: itemLista.id,
-          loja_id: 3,
-          tipoPreco: configPreco[2]
-        },
-        // oferta - preco 3 loja 3
-        {
-          id: idProd++,
-          valor: formatValue(preco.preco1, 2.5),
-          oferta: true,
-          venda: false,
-          produto_id: itemLista.id,
-          loja_id: 3,
-          tipoPreco: configPreco[2]
-        }
-      ];
+//   if (req.headers.assinante == assinante1) {
+//     var idProd = 1;
+//     for (var i = 0; i < list.length; i++) {
+//       let itemLista = list[i];
+//       var preco = itemLista.preco;
+//       var precos = [
+//         // venda - preco 1 loja 1
+//         {
+//           id: idProd++,
+//           valor: formatValue(preco.preco1, 2.2),
+//           oferta: false,
+//           venda: true,
+//           loja_id: 1,
+//           produto_id: itemLista.id,
+//           tipoPreco: configPreco[0]
+//         },
+//         // oferta - preco 1 loja 1
+//         {
+//           id: idProd++,
+//           valor: formatValue(preco.preco1, 1.5),
+//           oferta: true,
+//           venda: false,
+//           produto_id: itemLista.id,
+//           loja_id: 1,
+//           tipoPreco: configPreco[0]
+//         },
+//         // venda - preco 2 loja 1
+//         {
+//           id: idProd++,
+//           valor: formatValue(preco.preco1, 3.3),
+//           oferta: false,
+//           venda: true,
+//           produto_id: itemLista.id,
+//           loja_id: 1,
+//           tipoPreco: configPreco[2]
+//         },
+//         // oferta - preco 2 loja 1
+//         {
+//           id: idProd++,
+//           valor: formatValue(preco.preco1, 1.4),
+//           oferta: true,
+//           venda: false,
+//           loja_id: 1,
+//           produto_id: itemLista.id,
+//           tipoPreco: configPreco[1]
+//         },
+//         // venda - preco 3 loja 1
+//         {
+//           id: idProd++,
+//           valor: formatValue(preco.preco1, 3.6),
+//           oferta: false,
+//           venda: true,
+//           produto_id: itemLista.id,
+//           loja_id: 1,
+//           tipoPreco: configPreco[2]
+//         },
+//         // oferta - preco 3 loja 1
+//         {
+//           id: idProd++,
+//           valor: formatValue(preco.preco1, 2.5),
+//           oferta: true,
+//           venda: false,
+//           produto_id: itemLista.id,
+//           loja_id: 1,
+//           tipoPreco: configPreco[2]
+//         },
+//         // venda - preco 1 loja 2
+//         {
+//           id: idProd++,
+//           valor: formatValue(preco.preco1, 2.2),
+//           oferta: false,
+//           venda: true,
+//           loja_id: 2,
+//           produto_id: itemLista.id,
+//           tipoPreco: configPreco[0]
+//         },
+//         // oferta - preco 1 loja 2
+//         {
+//           id: idProd++,
+//           valor: formatValue(preco.preco1, 1.5),
+//           oferta: true,
+//           venda: false,
+//           produto_id: itemLista.id,
+//           loja_id: 2,
+//           tipoPreco: configPreco[0]
+//         },
+//         // venda - preco 2 loja 2
+//         {
+//           id: idProd++,
+//           valor: formatValue(preco.preco1, 3.3),
+//           oferta: false,
+//           venda: true,
+//           produto_id: itemLista.id,
+//           loja_id: 2,
+//           tipoPreco: configPreco[2]
+//         },
+//         // oferta - preco 2 loja 2
+//         {
+//           id: idProd++,
+//           valor: formatValue(preco.preco1, 1.4),
+//           oferta: true,
+//           venda: false,
+//           loja_id: 2,
+//           produto_id: itemLista.id,
+//           tipoPreco: configPreco[1]
+//         },
+//         // venda - preco 3 loja 2
+//         {
+//           id: idProd++,
+//           valor: formatValue(preco.preco1, 3.6),
+//           oferta: false,
+//           venda: true,
+//           produto_id: itemLista.id,
+//           loja_id: 2,
+//           tipoPreco: configPreco[2]
+//         },
+//         // oferta - preco 3 loja 2
+//         {
+//           id: idProd++,
+//           valor: formatValue(preco.preco1, 2.5),
+//           oferta: true,
+//           venda: false,
+//           produto_id: itemLista.id,
+//           loja_id: 2,
+//           tipoPreco: configPreco[2]
+//         },
+//         // venda - preco 1 loja 3
+//         {
+//           id: idProd++,
+//           valor: formatValue(preco.preco1, 2.2),
+//           oferta: false,
+//           venda: true,
+//           loja_id: 3,
+//           produto_id: itemLista.id,
+//           tipoPreco: configPreco[0]
+//         },
+//         // oferta - preco 1 loja 3
+//         {
+//           id: idProd++,
+//           valor: formatValue(preco.preco1, 1.5),
+//           oferta: true,
+//           venda: false,
+//           produto_id: itemLista.id,
+//           loja_id: 3,
+//           tipoPreco: configPreco[0]
+//         },
+//         // venda - preco 2 loja 3
+//         {
+//           id: idProd++,
+//           valor: formatValue(preco.preco1, 3.3),
+//           oferta: false,
+//           venda: true,
+//           produto_id: itemLista.id,
+//           loja_id: 3,
+//           tipoPreco: configPreco[2]
+//         },
+//         // oferta - preco 2 loja 3
+//         {
+//           id: idProd++,
+//           valor: formatValue(preco.preco1, 1.4),
+//           oferta: true,
+//           venda: false,
+//           loja_id: 3,
+//           produto_id: itemLista.id,
+//           tipoPreco: configPreco[1]
+//         },
+//         // venda - preco 3 loja 3
+//         {
+//           id: idProd++,
+//           valor: formatValue(preco.preco1, 3.6),
+//           oferta: false,
+//           venda: true,
+//           produto_id: itemLista.id,
+//           loja_id: 3,
+//           tipoPreco: configPreco[2]
+//         },
+//         // oferta - preco 3 loja 3
+//         {
+//           id: idProd++,
+//           valor: formatValue(preco.preco1, 2.5),
+//           oferta: true,
+//           venda: false,
+//           produto_id: itemLista.id,
+//           loja_id: 3,
+//           tipoPreco: configPreco[2]
+//         }
+//       ];
 
-      itemLista.preco_praticado = precos[0].valor;
-      itemLista.precos = precos;
-      delete itemLista.preco;
-      list[i] = itemLista;
+//       itemLista.preco_praticado = precos[0].valor;
+//       itemLista.precos = precos;
+//       delete itemLista.preco;
+//       list[i] = itemLista;
 
-    }
+//     }
 
-  } else if (req.headers.assinante == assinante2) {
-    var idProd = 1;
-    for (var i = 0; i < list.length; i++) {
-      let itemLista = list[i];
-      const preco = itemLista.preco;
+//   } else if (req.headers.assinante == assinante2) {
+//     var idProd = 1;
+//     for (var i = 0; i < list.length; i++) {
+//       let itemLista = list[i];
+//       const preco = itemLista.preco;
 
-      var precos = [
-        // venda - preco 1
-        {
-          id: idProd++,
-          valor: formatValue(preco.preco1, 2),
-          oferta: false,
-          venda: true,
-          produto_id: itemLista.id,
-          loja_id: 1,
-          tipoPreco: configPreco[0]
-        },
-        // oferta - preco 1
-        {
-          id: idProd++,
-          valor: formatValue(preco.preco1, 1),
-          oferta: true,
-          venda: false,
-          produto_id: itemLista.id,
-          loja_id: 1,
-          tipoPreco: configPreco[0]
-        }
-      ];
-      itemLista.preco_praticado = precos[0].valor;
-      itemLista.precos = precos;
-      delete itemLista.preco;
-      list[i] = itemLista;
-    }
-  }
+//       var precos = [
+//         // venda - preco 1
+//         {
+//           id: idProd++,
+//           valor: formatValue(preco.preco1, 2),
+//           oferta: false,
+//           venda: true,
+//           produto_id: itemLista.id,
+//           loja_id: 1,
+//           tipoPreco: configPreco[0]
+//         },
+//         // oferta - preco 1
+//         {
+//           id: idProd++,
+//           valor: formatValue(preco.preco1, 1),
+//           oferta: true,
+//           venda: false,
+//           produto_id: itemLista.id,
+//           loja_id: 1,
+//           tipoPreco: configPreco[0]
+//         }
+//       ];
+//       itemLista.preco_praticado = precos[0].valor;
+//       itemLista.precos = precos;
+//       delete itemLista.preco;
+//       list[i] = itemLista;
+//     }
+//   }
 
-  createFile(list);
-  res.send("ok");
+//   createFile(list);
+//   res.send("ok");
 
-});
+// });
 
-function formatValue(valor, multiplicador) {
-  return parseFloat((valor * multiplicador).toPrecision(2));
-}
+// function formatValue(valor, multiplicador) {
+//   return parseFloat((valor * multiplicador).toPrecision(2));
+// }
 
-function createFile(list) {
-  var fs = require('fs');
-  var newList1 = JSON.stringify(list.slice(0, 562)); // 0 - 562
-  var newList2 = JSON.stringify(list.slice(562, 1124)); // 562 - 1124
-  var newList3 = JSON.stringify(list.slice(1124, 1686)); // 1124 - 1686
-  fs.writeFile('newList1.js', 'export const produtos = ' + newList1 + ";", function (err) {
-    if (err) throw err;
-    console.log('File is created successfully.');
-  });
-  fs.writeFile('newList2.js', 'export const produtos = ' + newList2 + ";", function (err) {
-    if (err) throw err;
-    console.log('File is created successfully.');
-  });
-  fs.writeFile('newList3.js', 'export const produtos = ' + newList3 + ";", function (err) {
-    if (err) throw err;
-    console.log('File is created successfully.');
-  });
-}
+// function createFile(list) {
+//   var fs = require('fs');
+//   var newList1 = JSON.stringify(list.slice(0, 562)); // 0 - 562
+//   var newList2 = JSON.stringify(list.slice(562, 1124)); // 562 - 1124
+//   var newList3 = JSON.stringify(list.slice(1124, 1686)); // 1124 - 1686
+//   fs.writeFile('newList1.js', 'export const produtos = ' + newList1 + ";", function (err) {
+//     if (err) throw err;
+//     console.log('File is created successfully.');
+//   });
+//   fs.writeFile('newList2.js', 'export const produtos = ' + newList2 + ";", function (err) {
+//     if (err) throw err;
+//     console.log('File is created successfully.');
+//   });
+//   fs.writeFile('newList3.js', 'export const produtos = ' + newList3 + ";", function (err) {
+//     if (err) throw err;
+//     console.log('File is created successfully.');
+//   });
+// }
