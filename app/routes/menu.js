@@ -39,7 +39,7 @@ menu.get("/", async (req, res) => {
         {
           id: 987,
           parentId: 10,
-          icone: "auditoriadepreco",
+          icone: "pedidodecompra",
           title: "Pedido de compra",
           subtitle: "Lorem impsum",
           nativa: true,
