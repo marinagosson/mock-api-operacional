@@ -11,7 +11,7 @@ menu.get("/", async (req, res) => {
     {
       id: 8,
       icone: "estoque",
-      title: "Controle de Estoque",
+      title: "Estoque",
       subtitle: "Contagem de produto",
       nativa: true,
       ordem: 0,
