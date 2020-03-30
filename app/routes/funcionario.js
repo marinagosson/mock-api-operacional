@@ -30,7 +30,7 @@ funcionario.get("/", (req, res) => {
       id: 47,
       username: assinante1,
       administrador: false,
-      nome: "Natalia",
+      nome: "Natália",
       sobrenome: "Macambira",
       email: "natalia.dev.cm@gmail.com",
       telefone: "05111111111",
