@@ -669,6 +669,10 @@
         "properties": {
           "cnpj": {
             "type": "string",
+            "example": "12.088.491/0001-53"
+          },
+          "descricao": {
+            "type": "string",
             "example": "Supermercado Frangolandia"
           },
           "ativo": {
