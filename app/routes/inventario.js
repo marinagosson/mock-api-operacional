@@ -3,7 +3,7 @@ import { Inventario } from "../models";
 import { hasAssinante, resSendAssinanteNotFound } from "./utils/assinante";
 
 import { assinante1 } from "./utils/assinante";
-import { assinante2 } from "./utils/assinante"
+import { assinante2 } from "./utils/assinante";
 
 export const inventario = new Router();
 
@@ -25,8 +25,13 @@ var inventariosLoja1 = [
       "1261",
       "1259",
       "7896864400321",
-      "1176"
-    ]
+      "1176",
+      "1340",
+      "1396",
+      "2211",
+      "2107",
+      "2108",
+    ],
   },
   {
     id: 456789,
@@ -40,14 +45,16 @@ var inventariosLoja1 = [
     produtos: [
       "1201",
       "1337",
-      "735201111995",
       "1365",
       "1472",
       "1464",
-      "78935495",
-      "929"
-    ]
-  }
+      "929",
+      "2132",
+      "2219",
+      "3740",
+      "842",
+    ],
+  },
 ];
 var inventariosLoja2 = [
   {
@@ -67,8 +74,8 @@ var inventariosLoja2 = [
       "1472",
       "1464",
       "78935495",
-      "929"
-    ]
+      "929",
+    ],
   },
   {
     id: 321654,
@@ -87,9 +94,9 @@ var inventariosLoja2 = [
       "1261",
       "1259",
       "7896864400321",
-      "1176"
-    ]
-  }
+      "1176",
+    ],
+  },
 ];
 
 inventario.get("/", (req, res) => {
